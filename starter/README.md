@@ -15,6 +15,8 @@ Do not edit the shared starter for one-off content. Generate an independent proj
 ```bash
 npm install
 cp .env.example .env
+npm run review:storyboard
+npm run review:serve
 npm run voices
 npm run build
 npm run vo
@@ -26,7 +28,7 @@ npm run render
 npm run mix
 ```
 
-The default final output is `out/risograph-explainer-video.mp4` with captions in `out/captions.srt`.
+`npm run review:storyboard` builds the visual approval gallery at `out/storyboard-review/index.html`; `npm run review:serve` serves it locally for the visible Glean Tau Browser sidebar. The default final video is `out/risograph-explainer-video.mp4` with captions in `out/captions.srt`.
 
 ## Main source areas
 

@@ -13,6 +13,7 @@
 - `tools/vo.ts` — line-based ElevenLabs generation and word alignment.
 - `tools/sound.ts` — sound effects and optional music generation.
 - `tools/render.ts` — render server, schedule, draft, 1080p, and 4K output.
+- `tools/storyboard-gallery.ts` — builds the local visual-approval gallery from `project/storyboard-review.json`.
 - `tools/mix.ts` — fades, ducking, loudness normalization, captions, and final mux.
 
 ## Content versus engine
@@ -22,6 +23,16 @@ Change content first in `project/`, `src/story.ts`, `src/script.ts`, and scene d
 ## Determinism
 
 The renderer uses a fixed stage, seeded texture/noise, measured audio, and frame-time-based animation. The same source and schedule should produce the same frames. Keep randomness seeded; never use unseeded `Math.random()` inside scene rendering.
+
+## Visual review gallery
+
+1. Render representative 16:9 frames under `out/style-frames/`.
+2. List the frames and optional contact sheet in `project/storyboard-review.json`.
+3. Run `npm run review:storyboard` to build `out/storyboard-review/index.html`.
+4. Run `npm run review:serve` and read the actual local URL from Vite output.
+5. Open that URL in Glean Tau’s visible in-app Browser sidebar before requesting approval.
+
+Headless browsing can support internal QA but does not satisfy the visual approval gate.
 
 ## Long renders
 

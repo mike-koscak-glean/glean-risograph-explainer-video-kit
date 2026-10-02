@@ -32,6 +32,7 @@ for (const file of [
   'STATUS.md',
   'intake-notes.md',
   'research-notes.md',
+  'storyboard-review.json',
   'brand.md',
   'facts-and-claims.md',
   'story.md',

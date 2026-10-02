@@ -32,4 +32,9 @@ Examples: journey road, silos, orbit/index, graph, brief card, agent, baseline c
 - Transition:
 - Close:
 
+## Visible review gallery
+- Manifest: `project/storyboard-review.json`
+- Generated gallery: `out/storyboard-review/index.html`
+- Browser-panel review status:
+
 ## Approved deviations from the shared design system

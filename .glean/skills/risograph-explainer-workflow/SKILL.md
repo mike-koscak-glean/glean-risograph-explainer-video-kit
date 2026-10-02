@@ -11,8 +11,8 @@ Use one shared engine and three gated phases. Resume from `project/STATUS.md`; d
 1. Read `project/STATUS.md`, `project/brief.md`, `project/intake-notes.md`, `project/research-notes.md`, and `project/facts-and-claims.md`.
 2. Treat the current chat and freeform notes as valid intake. Do not block because the structured brief is incomplete.
 3. If the project type is undecided or the story is not approved, read and follow `.glean/skills/shape-risograph-video-story/SKILL.md`.
-4. If the story is approved but the visual storyboard is not, read and follow `.glean/skills/design-risograph-video-storyboard/SKILL.md`.
-5. If both are approved but production is incomplete, read and follow `.glean/skills/produce-risograph-explainer-video/SKILL.md`.
+4. If the story is approved but the visible visual review has not been shown or the visual storyboard is not approved, read and follow `.glean/skills/design-risograph-video-storyboard/SKILL.md`.
+5. If the story, visible visual review, and visual storyboard are approved but production is incomplete, read and follow `.glean/skills/produce-risograph-explainer-video/SKILL.md`.
 6. If production is complete, use `QA_CHECKLIST.md` to handle revisions or validate delivery.
 
 A user can enter at a later phase only when the required earlier artifacts exist and the user confirms they are approved. Record that confirmation in `project/STATUS.md`.
@@ -31,7 +31,7 @@ Respect the selected research approach: **Search Glean**, **Supplied sources onl
 ## Phase boundaries
 
 - **Story:** confirm project type; gather requested context; clarify audience, evidence, purpose, narrative arc, sections, and duration. Do not design frames or call paid APIs.
-- **Visual storyboard:** choose metaphors, scenes, on-screen copy, brand treatment, and representative style frames. Do not generate final voice or render the full video.
+- **Visual storyboard:** choose metaphors, scenes, on-screen copy, brand treatment, and representative style frames. Build a local review gallery and open it in the visible Glean Tau Browser sidebar before asking for approval. Headless review does not satisfy this gate. Do not generate final voice or render the full video.
 - **Production:** finalize the spoken script, generate narration, implement timed scenes, mix audio, render, and validate.
 
 If a later phase exposes a structural problem, return to the relevant earlier phase and clear downstream approvals in `project/STATUS.md`.

@@ -27,11 +27,14 @@ Use it for:
 
 | 01 · Story | 02 · Visual design | 03 · Production |
 |---|---|---|
-| Tau uses your rough idea, freeform notes, supplied sources, and optional Glean research to shape the story. | Tau creates the visual metaphor, scene plan, on-screen copy, logos, and style frames. | Tau creates the spoken script, ElevenLabs narration, animation, audio, captions, and final render. |
-| **You approve:** project type and story | **You approve:** the visual storyboard | **You approve:** the finished video |
+| Tau uses your rough idea, freeform notes, supplied sources, and optional Glean research to shape the story. | Tau creates the visual metaphor, scene plan, on-screen copy, logos, and style frames, then opens them in a review gallery. | Tau creates the spoken script, ElevenLabs narration, animation, audio, captions, and final render. |
+| **You approve:** project type and story | **You inspect in the Tau Browser sidebar and approve:** the visual storyboard | **You approve:** the finished video |
 
 > [!TIP]
 > You can stop after any phase, give feedback, and resume later. Tau records progress and approvals in `project/STATUS.md`.
+
+> [!IMPORTANT]
+> Tau must open the style frames and contact sheet in the **visible in-app Browser sidebar** before asking for visual approval. A text summary or background/headless review is not enough.
 
 ---
 
@@ -170,7 +173,7 @@ Production also requires Node.js 20 or newer plus FFmpeg and ffprobe. Tau can ch
 
 ### Start with an approved story
 
-> My story is approved. Use `design-risograph-video-storyboard` to translate it into the kit’s visual style. Do not generate voice or render the full video yet.
+> My story is approved. Use `design-risograph-video-storyboard` to translate it into the kit’s visual style. Open the review gallery in Tau’s visible Browser sidebar before asking me to approve it. Do not generate voice or render the full video yet.
 
 ### Produce an approved storyboard
 

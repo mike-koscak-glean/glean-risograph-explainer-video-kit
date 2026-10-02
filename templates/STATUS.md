@@ -11,6 +11,7 @@
 ## Approval gates
 - [ ] Project type confirmed
 - [ ] Story approved
+- [ ] Visual review shown in Tau Browser panel
 - [ ] Visual direction and storyboard approved
 - [ ] Spoken script approved
 - [ ] Production and QA complete
@@ -29,6 +30,8 @@ Only mark a gate after explicit user approval. If an earlier artifact changes ma
 | `brand.md` | Story / Visual | Draft | |
 | `visual-direction.md` | Visual | Not started | |
 | `storyboard.md` | Visual | Not started | |
+| `storyboard-review.json` | Visual | Not started | Visible gallery manifest |
+| `out/storyboard-review/index.html` | Visual | Not started | Open in Tau Browser sidebar before approval |
 | `script.md` | Production | Not started | |
 | `production-plan.md` | Production | Not started | |
 | `QA_CHECKLIST.md` | Production | Not started | |

@@ -4,6 +4,7 @@ This file is owned by the production phase.
 
 ## Approved inputs
 - Story approval:
+- Visible Browser-panel review:
 - Visual approval:
 - Script approval:
 

@@ -14,6 +14,8 @@
 - [ ] Logos are local, sharp, correctly cropped, and authorized.
 - [ ] No first-frame blank, clipping, overflow, or abrupt visual pop occurs.
 - [ ] Contact sheets were reviewed for every beat.
+- [ ] The visual storyboard gallery was opened in the visible Glean Tau Browser panel before approval.
+- [ ] Visual approval was based on the displayed frames, not only a text summary or headless review.
 - [ ] Cross-fades and transitions were checked at their midpoint.
 
 ## Audio

@@ -8,7 +8,7 @@ Turn approved story and visuals into the final video without reopening scope sil
 
 ## Preconditions
 
-Read `project/STATUS.md`. Confirm the project-type, story, and visual gates are approved. Read `project/story.md`, `project/research-notes.md`, `project/visual-direction.md`, `project/storyboard.md`, `project/brand.md`, `project/facts-and-claims.md`, and the relevant files in `references/`.
+Read `project/STATUS.md`. Confirm the project-type, story, visible visual-review, and visual-storyboard gates are approved. Read `project/story.md`, `project/research-notes.md`, `project/visual-direction.md`, `project/storyboard.md`, `project/brand.md`, `project/facts-and-claims.md`, and the relevant files in `references/`.
 
 ## Workflow
 

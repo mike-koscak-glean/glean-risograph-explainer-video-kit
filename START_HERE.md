@@ -54,12 +54,15 @@ No visual coding, ElevenLabs calls, or rendering occurs.
 
 ### Phase 2: Visual storyboard
 
-After story approval, Tau produces and reviews:
+After story approval, Tau produces:
 
 - `brand.md`
 - `visual-direction.md`
 - `storyboard.md`
-- Representative style frames or a contact sheet
+- Representative style frames and an optional contact sheet
+- `out/storyboard-review/index.html`, built from `project/storyboard-review.json`
+
+Tau serves this gallery locally and opens it in the **visible Glean Tau Browser sidebar**. The user reviews the displayed frames before approving the phase. A headless review, file path, or text summary does not count as approval.
 
 No final narration or full render occurs.
 

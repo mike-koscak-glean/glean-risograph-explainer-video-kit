@@ -38,7 +38,9 @@ Invoke `shape-risograph-video-story` when project type, audience, purpose, evide
 
 Invoke `design-risograph-video-storyboard` when the story is approved but the visual metaphor, scene plan, on-screen copy, brand treatment, and style frames are not.
 
-**Ends with:** `visual-direction.md`, `storyboard.md`, and representative style frames.
+**Ends with:** `visual-direction.md`, `storyboard.md`, representative style frames, and `out/storyboard-review/index.html` opened in the visible Glean Tau Browser sidebar.
+
+The user must inspect the visible gallery before approval. Headless or background review can support QA but cannot satisfy this gate.
 
 **Does not do:** paid voice generation or a full final render.
 
@@ -56,6 +58,6 @@ Feedback can invalidate downstream work. If a story change affects the storyboar
 
 - “I have rough notes; help me decide what the story is.” → Phase 1
 - “Search Glean for current context about this topic, then recommend general or customer-specific.” → Phase 1
-- “I already have an approved six-part story; help me visualize it.” → Phase 2
+- “I already have an approved six-part story; visualize it and show me the gallery in Tau’s Browser sidebar.” → Phase 2
 - “The storyboard is approved; write the final spoken script and produce it.” → Phase 3
 - “Help me make one of these videos.” → Orchestrator
