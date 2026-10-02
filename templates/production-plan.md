@@ -9,6 +9,9 @@ This file is owned by the production phase.
 - Visible script Browser-panel review:
 - Script approval:
 - Approved target duration:
+- `.env` prepared:
+- ElevenLabs key check:
+- Voice ID check:
 
 ## Audio
 - ElevenLabs voice and ID:

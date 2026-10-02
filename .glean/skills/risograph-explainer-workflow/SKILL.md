@@ -32,7 +32,7 @@ Respect the selected research approach: **Search Glean**, **Supplied sources onl
 
 - **Story:** confirm project type and ask for approximate duration early; gather requested context; clarify audience, evidence, purpose, narrative arc, and sections. If duration is “not sure,” recommend and confirm one before story approval. Do not design frames or call paid APIs.
 - **Visual storyboard:** choose metaphors, scenes, on-screen copy, brand treatment, and representative style frames. Build a local review gallery and open it in the visible Glean Tau Browser sidebar before asking for approval. Headless review does not satisfy this gate. Do not generate final voice or render the full video.
-- **Production:** finalize the spoken script, build a complete script review page, and open it in the visible Glean Tau Browser sidebar before requesting approval. An approval card or headless review is not sufficient. Only after approval generate narration, implement timed scenes, mix audio, render, and validate.
+- **Production:** finalize the spoken script, build a complete script review page, and open it in the visible Glean Tau Browser sidebar before requesting approval. An approval card or headless review is not sufficient. After approval, run the automatic `.env` preparation gate, stop for the user to enter the key locally, validate without displaying secrets, select a voice, and only then generate narration, implement timed scenes, mix audio, render, and validate.
 
 If a later phase exposes a structural problem, return to the relevant earlier phase and clear downstream approvals in `project/STATUS.md`.
 

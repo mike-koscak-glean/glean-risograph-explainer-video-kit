@@ -19,6 +19,9 @@
 - [ ] Cross-fades and transitions were checked at their midpoint.
 
 ## Audio
+- [ ] `.env` was created automatically and the user entered the key locally without sharing it in chat.
+- [ ] `npm run env:check` passed before any ElevenLabs request.
+- [ ] The selected voice ID was saved and checked without displaying the API key.
 - [ ] The complete clean script was opened in the visible Glean Tau Browser panel before approval.
 - [ ] Script approval was based on the displayed narration, not only a word-count or duration summary.
 - [ ] Target duration, estimated duration, and spoken-word budget were reviewed.

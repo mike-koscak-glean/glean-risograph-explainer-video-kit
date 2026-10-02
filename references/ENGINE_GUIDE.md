@@ -10,6 +10,7 @@
 - `src/scenes/` — visual scene renderers and shared scene components.
 - `src/timeline.ts` — maps narration slots to scene timing.
 - `src/video.ts` — interactive player and deterministic frame renderer.
+- `tools/setup-env.mjs` — creates and validates local ElevenLabs configuration without displaying secrets.
 - `tools/vo.ts` — line-based ElevenLabs generation and word alignment.
 - `tools/sound.ts` — sound effects and optional music generation.
 - `tools/render.ts` — render server, schedule, draft, 1080p, and 4K output.

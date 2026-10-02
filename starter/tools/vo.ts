@@ -10,7 +10,7 @@ import { GEN, arg, flag, eleven, hash, duration, toWav, readJson, writeJson, typ
 
 const VOICE = process.env.ELEVEN_VOICE_ID;
 if (!VOICE) {
-  console.error('Set ELEVEN_VOICE_ID in .env (run `npm run voices` to audition options).');
+  console.error('ElevenLabs voice is not configured. Run `npm run voices`, choose a voice, then run `npm run env:setup -- --set-voice <voice-id>`.');
   process.exit(1);
 }
 const MODEL = process.env.ELEVEN_MODEL ?? 'eleven_multilingual_v2';

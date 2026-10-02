@@ -85,4 +85,4 @@ console.log('Next:');
 console.log(`  Continue in Tau from ${target}`);
 console.log('  Share a rough idea and approximate duration (or say not sure), add project/intake-notes.md, supply sources, request a Glean search, or combine them.');
 console.log('  Ask Tau to read .glean/skills/risograph-explainer-workflow/SKILL.md and begin the story phase.');
-console.log('  Install dependencies and configure .env only when production begins.');
+console.log('  After visible script approval, Tau runs npm run env:setup, stops for local key entry, and validates before ElevenLabs.');

@@ -1,11 +1,13 @@
 {
   "name": "risograph-editorial-explainer-video-starter",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port 5198",
     "build": "tsc --noEmit && vite build",
+    "env:setup": "node tools/setup-env.mjs",
+    "env:check": "node tools/setup-env.mjs --check",
     "review:storyboard": "node tools/storyboard-gallery.ts",
     "review:script": "node tools/script-review.ts",
     "review:serve": "vite out --host 127.0.0.1 --port 5199",

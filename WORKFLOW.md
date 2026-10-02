@@ -50,7 +50,9 @@ The user must inspect the visible gallery before approval. Headless or backgroun
 
 Invoke `produce-risograph-explainer-video` when story and visuals are approved.
 
-Tau first builds `out/script-review/index.html` and opens the complete spoken script in the visible Glean Tau Browser sidebar. The user must inspect that page before script approval. A word-count or duration summary, approval card, or headless review cannot satisfy this gate. Paid ElevenLabs generation begins only after approval.
+Tau first builds `out/script-review/index.html` and opens the complete spoken script in the visible Glean Tau Browser sidebar. The user must inspect that page before script approval. A word-count or duration summary, approval card, or headless review cannot satisfy this gate.
+
+After approval, Tau runs `npm run env:setup` to create `.env` automatically, stops for the user to enter the key locally, and runs `npm run env:check`. Missing `.env.example`, a missing key, or a missing voice must produce a clear user handoff—not a failed paid command. ElevenLabs generation begins only after the environment and voice checks pass.
 
 **Ends with:** visibly reviewed and approved script, ElevenLabs narration, timed animation, final mix, captions, thumbnail, MP4, and completed QA.
 

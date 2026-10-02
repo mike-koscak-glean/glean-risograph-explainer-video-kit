@@ -106,46 +106,46 @@ Sign in to ElevenLabs, open the **API Keys** area in account settings, and creat
 >
 > Do not paste the key into Tau, a document, Slack, or GitHub. Enter it directly into the local hidden file described below.
 
-### 2. Ask Tau to prepare the hidden `.env` file
+### 2. Tau creates the hidden `.env` file automatically
 
-In the generated video project, tell Tau:
-
-> Create `.env` by copying `.env.example`. Do not ask me for the API key and do not display the file contents. Tell me where the file is so I can paste the key myself.
-
-The `.env` file is at the top level of the generated project, beside `package.json`. Files beginning with a period are hidden on macOS. In Finder, press **Command + Shift + .** to show hidden files.
-
-Open `.env` yourself and replace the blank value:
-
-```text
-ELEVENLABS_API_KEY=paste_your_key_here
-ELEVEN_VOICE_ID=
-ELEVEN_MODEL=eleven_v3
-```
-
-Save the file. `.env` is excluded from Git and must remain local.
-
-If you prefer Terminal, run this from the generated project folder:
+After the displayed script is approved, Tau runs:
 
 ```bash
-cp .env.example .env
-open -e .env
+npm run env:setup
 ```
 
-### 3. Choose and save a voice
+This command creates `.env` at the generated project root beside `package.json`. It copies `.env.example` when available. If that file is missing, it creates `.env` from a built-in safe template instead. Existing values are preserved, and secret values are never printed.
 
-After the key is saved, ask Tau:
+Tau must stop when the command reports **ACTION REQUIRED** and give you the exact absolute file path. It must not try an ElevenLabs command yet.
 
-> Run `npm run voices -- --n 3`. Show me the voice names and where the samples were saved, but never display my API key.
+### 3. Add the key yourself and confirm
 
-This creates sample MP3s in `public/gen/voices/` and prints each voice ID. Listen to them, choose one, and add its ID to `.env`:
+Open the exact `.env` path Tau provides. Files beginning with a period are hidden on macOS. In Finder, press **Command + Shift + .** to show hidden files. Add the key after:
 
 ```text
-ELEVEN_VOICE_ID=the_selected_voice_id
+ELEVENLABS_API_KEY=
 ```
 
-The reference videos used Eric with ElevenLabs v3, but the best voice can vary by audience. Voice auditions use ElevenLabs credits.
+Save the file, return to Tau, and say only:
 
-### 4. Test before generating the full narration
+> The ElevenLabs key is saved.
+
+Do **not** paste the key into chat. Tau then runs `npm run env:check`, which reports only configured or not configured. If the check fails, Tau stops and returns you to these instructions instead of trying a paid request.
+
+### 4. Choose and save a voice
+
+After the key check passes, Tau runs `npm run voices -- --n 3`. This creates a small set of sample MP3s in `public/gen/voices/` and prints the voice names and IDs. Voice auditions use ElevenLabs credits.
+
+After you choose a voice, Tau saves the non-secret ID without displaying or changing the API key:
+
+```bash
+npm run env:setup -- --set-voice the_selected_voice_id
+npm run env:check -- --require-voice
+```
+
+The reference videos used Eric with ElevenLabs v3, but the best voice can vary by audience.
+
+### 5. Test before generating the full narration
 
 - `npm run vo:scratch` uses a local macOS voice for free pacing checks. It does not require ElevenLabs.
 - `npm run vo` generates and caches the approved narration line by line with ElevenLabs.

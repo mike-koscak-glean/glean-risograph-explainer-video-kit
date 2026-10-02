@@ -13,8 +13,9 @@ Do not edit the shared starter for one-off content. Generate an independent proj
 ## Production commands
 
 ```bash
+npm run env:setup
+npm run env:check
 npm install
-cp .env.example .env
 npm run review:storyboard
 npm run review:script
 npm run review:serve
@@ -29,7 +30,7 @@ npm run render
 npm run mix
 ```
 
-`npm run review:storyboard` builds the visual gallery, `npm run review:script` builds the complete spoken-script review, and `npm run review:serve` serves both from `out/` for the visible Glean Tau Browser sidebar. The default final video is `out/risograph-explainer-video.mp4` with captions in `out/captions.srt`.
+`npm run env:setup` creates `.env` automatically from `.env.example` or a built-in fallback and never displays secrets. `npm run env:check` must pass before ElevenLabs is used. `npm run review:storyboard` builds the visual gallery, `npm run review:script` builds the complete spoken-script review, and `npm run review:serve` serves both from `out/` for the visible Glean Tau Browser sidebar. The default final video is `out/risograph-explainer-video.mp4` with captions in `out/captions.srt`.
 
 ## Main source areas
 

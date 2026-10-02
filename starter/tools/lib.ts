@@ -27,7 +27,7 @@ export const flag = (k: string) => process.argv.includes(`--${k}`);
 export function elevenKey(): string {
   const k = process.env.ELEVENLABS_API_KEY;
   if (!k) {
-    console.error('Missing ELEVENLABS_API_KEY. Add it to .env (see .env.example).');
+    console.error('ElevenLabs is not configured. Run `npm run env:setup`, stop, and follow the printed user instructions before retrying.');
     process.exit(1);
   }
   return k;

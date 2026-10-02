@@ -74,12 +74,14 @@ Only after the displayed script is approved, install prerequisites and configure
 
 ```bash
 node --version
-ffmpeg -version
+npm run env:setup
 npm install
-cp .env.example .env
+ffmpeg -version
 ```
 
-Use Node.js 20 or newer. Add `ELEVENLABS_API_KEY` and the selected `ELEVEN_VOICE_ID` to `.env` without sharing the key in chat. Then Tau produces:
+Use Node.js 20 or newer. Tau creates `.env` automatically, even if `.env.example` is missing, then stops and gives the user the exact file path. The user enters `ELEVENLABS_API_KEY` directly in that hidden local file and confirms only that it was saved. Tau must run `npm run env:check` before any ElevenLabs request, then audition and save a selected voice ID. Never share the key in chat.
+
+After the environment and voice checks pass, Tau produces:
 
 - `production-plan.md`
 - Timed scene code

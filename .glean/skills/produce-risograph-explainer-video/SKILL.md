@@ -39,7 +39,27 @@ After explicit approval given after the visible script review:
 1. Record the visible review date, reviewer, target duration, estimated duration, and decision in `project/script.md`.
 2. Mark both **Spoken script shown in Tau Browser panel** and **Spoken script approved** in `project/STATUS.md`.
 3. Update the change log and `project/production-plan.md`.
-4. Only then proceed to voice selection, `.env` setup, and paid generation.
+4. Only then proceed to the ElevenLabs environment gate below.
+
+## Required ElevenLabs environment gate
+
+Do not run `npm run voices`, `npm run vo`, `npm run sfx`, `npm run music`, or any other ElevenLabs request until this gate passes.
+
+1. Run `npm run env:setup` automatically. Do not ask the user to create or copy files first.
+2. The command must create `.env` when it is missing. It copies `.env.example` when available and uses a built-in safe template when `.env.example` is missing. It preserves existing values and never prints secrets.
+3. Read only the command’s status output. Never display `.env`, use `cat` or `grep` on its contents, or ask the user to paste a key into chat.
+4. If the status says **ACTION REQUIRED**, stop all ElevenLabs work. Give the user the exact absolute `.env` path printed by the command and explain:
+   - `.env` is a hidden local file beside `package.json`.
+   - Open that exact file in Tau’s Explorer, a text editor, or Finder after pressing **Command + Shift + .** to show hidden files.
+   - Paste the key after `ELEVENLABS_API_KEY=` with no extra spaces and save the file.
+   - Return to Tau and confirm only that the key is saved. Never send the key itself.
+5. Wait for the user’s confirmation. Do not “try the next command” while waiting.
+6. After confirmation, run `npm run env:check`. This command reports only configured/not configured. If it fails, stop and repeat the safe handoff; do not attempt an API call.
+7. After the key check passes, run `npm run voices -- --n 3` to create a small audition set. Show the voice names and sample locations, not the key. Voice auditions use credits.
+8. After the user chooses a voice, run `npm run env:setup -- --set-voice <voice-id>`, then `npm run env:check -- --require-voice`. These commands update and validate the non-secret voice ID without displaying or changing the API key.
+9. Only after the key and voice checks pass may paid narration generation begin.
+
+If a later ElevenLabs call returns an authentication, plan, quota, or model-access error, stop and explain the specific issue. Do not retry repeatedly or change plans, models, or credentials silently.
 
 ## Produce the video
 
