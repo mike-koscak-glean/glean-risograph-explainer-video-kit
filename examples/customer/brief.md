@@ -21,4 +21,4 @@ Possible use cases include account preparation, customer handoffs, RFP assistanc
 Use fictional people and a fictional Northstar account. Use the placeholder ExampleCo logo and cyan accent until an approved customer asset and authorization are documented.
 
 ## Duration and tone
-Approximately 4–5 minutes. Customer-specific, credible, warm, and not overly dense.
+User-provided approximate target: 4–5 minutes, flexible. Customer-specific, credible, warm, and not overly dense.

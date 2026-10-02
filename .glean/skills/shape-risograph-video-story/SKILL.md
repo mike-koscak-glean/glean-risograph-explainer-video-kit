@@ -13,6 +13,20 @@ Produce an approved story before visual design or production begins. Treat the b
 3. Do not ask the user to complete every brief field. Normalize what is already known into the project artifacts and ask one grouped round of questions only for gaps that materially change the story.
 4. Do not request customer details for a general explainer. Do not assume a video is customer-specific because the starter contains an ExampleCo sample.
 
+## Confirm target duration early
+
+Treat approximate duration as a key story input. If the user did not provide one, ask about it in the first grouped intake question before drafting narrative angles. Offer simple choices:
+
+- **Short:** about 60–90 seconds
+- **Standard:** about 2–3 minutes
+- **Deep:** about 4–6 minutes
+- **Custom:** another target or range
+- **Not sure:** Tau recommends a duration after reviewing the audience, distribution, number of concepts or use cases, and available evidence
+
+“Not sure” is valid and must not block research. After context review, recommend one target with a short rationale and get confirmation before story approval. Do not silently inherit the length of the ExampleCo sample or choose a duration only after the script is written.
+
+Record the target, whether it was user-provided or Tau-recommended, and how flexible it is in `project/brief.md`, `project/STATUS.md`, and `project/story.md`. Use it to control the number of sections, examples, and likely spoken-word budget.
+
 ## Choose the project type
 
 Use these definitions:
@@ -44,7 +58,7 @@ Freeform notes remain valid input even when they are incomplete, contradictory, 
 
 ## Shape the story
 
-1. Identify the audience, decision or learning outcome, current tension, core idea, evidence limits, desired duration, and closing action.
+1. Identify the audience, decision or learning outcome, current tension, core idea, evidence limits, confirmed target duration, and closing action.
 2. Draft two or three narrative angles when the best framing is not obvious. Explain each tradeoff in one sentence.
 3. Recommend one angle and draft `project/story.md` using the output contract below.
 4. Review every product fact, customer fact, system, date, metric, and value claim against `project/facts-and-claims.md`. Add missing entries rather than silently assuming them.
@@ -62,7 +76,7 @@ Freeform notes remain valid input even when they are incomplete, contradictory, 
 - Concrete examples or use cases
 - Evidence status, source boundaries, and unresolved questions
 - Proposed opening and closing
-- Duration and density recommendation
+- Confirmed target duration, source of the target, flexibility, and density recommendation
 - Content intentionally excluded
 
 ## Quality bar

@@ -12,7 +12,13 @@ A general explainer teaches a durable idea, capability, workflow, or point of vi
 - Topic or rough idea:
 - Desired audience outcome:
 - Audience, if known:
-- Desired duration, if known:
+
+## Target duration
+- Choice: **Short 60–90 sec / Standard 2–3 min / Deep 4–6 min / Custom / Not sure—recommend one**
+- Custom target or range:
+- Flexibility: Fixed / Approximate / Flexible
+
+If **Not sure** is selected, Tau should recommend a target after reviewing the audience, distribution, number of concepts, and available evidence, then confirm it before story approval.
 
 ## Context and research
 - Research approach: **Search Glean / Supplied sources only / Both / Ask first**

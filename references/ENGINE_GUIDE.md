@@ -14,6 +14,7 @@
 - `tools/sound.ts` — sound effects and optional music generation.
 - `tools/render.ts` — render server, schedule, draft, 1080p, and 4K output.
 - `tools/storyboard-gallery.ts` — builds the local visual-approval gallery from `project/storyboard-review.json`.
+- `tools/script-review.ts` — builds the complete spoken-script review from `project/script-review.json`.
 - `tools/mix.ts` — fades, ducking, loudness normalization, captions, and final mux.
 
 ## Content versus engine
@@ -30,9 +31,11 @@ The renderer uses a fixed stage, seeded texture/noise, measured audio, and frame
 2. List the frames and optional contact sheet in `project/storyboard-review.json`.
 3. Run `npm run review:storyboard` to build `out/storyboard-review/index.html`.
 4. Run `npm run review:serve` and read the actual local URL from Vite output.
-5. Open that URL in Glean Tau’s visible in-app Browser sidebar before requesting approval.
+5. Open `<base-url>/storyboard-review/` in Glean Tau’s visible in-app Browser sidebar before requesting approval.
 
-Headless browsing can support internal QA but does not satisfy the visual approval gate.
+For the spoken script, populate `project/script-review.json`, run `npm run review:script`, and open `<base-url>/script-review/`. The page must show every clean narration beat and the target and estimated duration before approval.
+
+Headless browsing can support internal QA but does not satisfy either approval gate.
 
 ## Long renders
 

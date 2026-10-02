@@ -38,13 +38,13 @@ Use one or more inputs:
 
 Set the research approach to **Glean search**, **Supplied sources only**, **Both**, or **Ask first**. Tau records research and source links in `project/research-notes.md`.
 
-The brief is a working aid, not a required form. Tau should ask only for missing information that materially changes the story.
+The brief is a working aid, not a required form. Tau should ask only for missing information that materially changes the story. Approximate duration is always a key input: choose **short (60–90 seconds)**, **standard (2–3 minutes)**, **deep (4–6 minutes)**, a custom target, or **not sure—recommend one**.
 
 ## 4. Complete the gated phases
 
 ### Phase 1: Story
 
-Tau confirms or recommends **General**, **Customer-specific**, or **Undecided**, gathers requested context, and produces:
+Tau asks for or recommends an approximate target duration, confirms **General** or **Customer-specific**, gathers requested context, and produces:
 
 - `research-notes.md`
 - `facts-and-claims.md`
@@ -68,7 +68,9 @@ No final narration or full render occurs.
 
 ### Phase 3: Production
 
-After visual approval, install prerequisites and configure ElevenLabs:
+After visual approval, Tau drafts `script.md`, builds `out/script-review/index.html`, and opens the complete spoken script in the **visible Glean Tau Browser sidebar**. The page shows every spoken line, beat, word count, target duration, estimated duration, and pronunciation note. A word-count summary or approval card alone does not count as review.
+
+Only after the displayed script is approved, install prerequisites and configure ElevenLabs:
 
 ```bash
 node --version
@@ -79,7 +81,6 @@ cp .env.example .env
 
 Use Node.js 20 or newer. Add `ELEVENLABS_API_KEY` and the selected `ELEVEN_VOICE_ID` to `.env` without sharing the key in chat. Then Tau produces:
 
-- `script.md`
 - `production-plan.md`
 - Timed scene code
 - Narration, music, and sound effects

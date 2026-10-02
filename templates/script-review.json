@@ -1,0 +1,10 @@
+{
+  "title": "Spoken script review",
+  "summary": "Review every spoken word and the expected duration before narration is generated.",
+  "targetDuration": "Not set",
+  "estimatedDuration": "",
+  "targetWordsPerMinute": 160,
+  "voice": "",
+  "model": "eleven_v3",
+  "beats": []
+}

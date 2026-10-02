@@ -27,8 +27,8 @@ Complete every step below before asking the user to approve the visual direction
 1. Save review images outside source control, preferably under `out/style-frames/`.
 2. Populate `project/storyboard-review.json` with the gallery title, summary, storyboard path, optional contact sheet, and every representative frame. Include each frame’s beat ID, title, audience takeaway, on-screen copy, evidence status, and notes.
 3. Run `npm run review:storyboard`. Confirm it creates `out/storyboard-review/index.html` and that every listed image loads.
-4. Start `npm run review:serve` as a non-interactive local process. Read its output to get the actual `127.0.0.1` URL; the port can change if 5199 is occupied.
-5. Use the browser-use workflow and explicitly choose the **visible in-app Browser**. Navigate the Glean Tau Browser sidebar to the local gallery URL.
+4. Start `npm run review:serve` as a non-interactive local process. Read its output to get the actual `127.0.0.1` base URL; the port can change if 5199 is occupied.
+5. Use the browser-use workflow and explicitly choose the **visible in-app Browser**. Navigate the Glean Tau Browser sidebar to `<base-url>/storyboard-review/`.
 6. Verify in the visible panel that the contact sheet, representative frames, labels, and storyboard source render correctly. Keep the gallery tab open for the user.
 7. Tell the user the gallery is open in the Browser sidebar. Ask them to inspect it and either approve the visual direction or identify revisions.
 8. For revisions, update the storyboard or frames, rerun `npm run review:storyboard`, reload the visible gallery, and ask again.

@@ -4,6 +4,9 @@
 - Name:
 - Mode: General / Customer-specific / Undecided
 - Context approach: Glean search / Supplied sources only / Both / Ask first
+- Target duration: Short 60–90 sec / Standard 2–3 min / Deep 4–6 min / Custom / Not sure
+- Duration source: User-provided / Tau-recommended / Not confirmed
+- Duration flexibility: Fixed / Approximate / Flexible
 - Owner:
 - Current phase: Story
 - Last updated:
@@ -13,6 +16,7 @@
 - [ ] Story approved
 - [ ] Visual review shown in Tau Browser panel
 - [ ] Visual direction and storyboard approved
+- [ ] Spoken script shown in Tau Browser panel
 - [ ] Spoken script approved
 - [ ] Production and QA complete
 
@@ -32,7 +36,9 @@ Only mark a gate after explicit user approval. If an earlier artifact changes ma
 | `storyboard.md` | Visual | Not started | |
 | `storyboard-review.json` | Visual | Not started | Visible gallery manifest |
 | `out/storyboard-review/index.html` | Visual | Not started | Open in Tau Browser sidebar before approval |
-| `script.md` | Production | Not started | |
+| `script.md` | Production | Not started | Complete clean narration and review record |
+| `script-review.json` | Production | Not started | Visible script-review manifest |
+| `out/script-review/index.html` | Production | Not started | Open in Tau Browser sidebar before approval |
 | `production-plan.md` | Production | Not started | |
 | `QA_CHECKLIST.md` | Production | Not started | |
 

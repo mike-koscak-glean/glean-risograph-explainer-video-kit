@@ -14,3 +14,6 @@ Could be a broad educational video for business audiences, or a customer-specifi
 
 ## Desired outcome
 After research, recommend whether the video should be a general explainer or customer-specific. Present the tradeoff before drafting the full story.
+
+## Duration
+Not sure. Recommend short, standard, deep, or a custom range after reviewing the likely audience and scope, then confirm it before story approval.

@@ -33,6 +33,7 @@ for (const file of [
   'intake-notes.md',
   'research-notes.md',
   'storyboard-review.json',
+  'script-review.json',
   'brand.md',
   'facts-and-claims.md',
   'story.md',
@@ -82,6 +83,6 @@ console.log(`Created ${target}`);
 console.log(`Mode: ${mode}`);
 console.log('Next:');
 console.log(`  Continue in Tau from ${target}`);
-console.log('  Share a rough idea, add project/intake-notes.md, supply sources, request a Glean search, or combine them.');
+console.log('  Share a rough idea and approximate duration (or say not sure), add project/intake-notes.md, supply sources, request a Glean search, or combine them.');
 console.log('  Ask Tau to read .glean/skills/risograph-explainer-workflow/SKILL.md and begin the story phase.');
 console.log('  Install dependencies and configure .env only when production begins.');

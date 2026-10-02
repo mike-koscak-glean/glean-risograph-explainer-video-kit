@@ -13,6 +13,8 @@ The story phase can begin from any combination of:
 
 The user selects **Glean search**, **Supplied sources only**, **Both**, or **Ask first**. Tau records searches, sources, findings, and gaps in `project/research-notes.md`. The structured brief is optional working context, not a questionnaire that must be completed.
 
+Approximate duration is a required early decision: **short (60–90 seconds)**, **standard (2–3 minutes)**, **deep (4–6 minutes)**, custom, or **not sure—recommend one**. If unsure, Tau recommends and confirms a target before story approval.
+
 ## End-to-end entry point
 
 Invoke `risograph-explainer-workflow` when:
@@ -30,7 +32,7 @@ The orchestrator reads `project/STATUS.md` and the intake artifacts, then loads 
 
 Invoke `shape-risograph-video-story` when project type, audience, purpose, evidence, narrative arc, examples, or duration is not approved.
 
-**Ends with:** confirmed project type, `research-notes.md`, `facts-and-claims.md`, `story.md`, and updated status.
+**Ends with:** confirmed project type and target duration, `research-notes.md`, `facts-and-claims.md`, `story.md`, and updated status.
 
 **Does not do:** final visual design, scene coding, ElevenLabs, or rendering.
 
@@ -48,7 +50,9 @@ The user must inspect the visible gallery before approval. Headless or backgroun
 
 Invoke `produce-risograph-explainer-video` when story and visuals are approved.
 
-**Ends with:** approved script, ElevenLabs narration, timed animation, final mix, captions, thumbnail, MP4, and completed QA.
+Tau first builds `out/script-review/index.html` and opens the complete spoken script in the visible Glean Tau Browser sidebar. The user must inspect that page before script approval. A word-count or duration summary, approval card, or headless review cannot satisfy this gate. Paid ElevenLabs generation begins only after approval.
+
+**Ends with:** visibly reviewed and approved script, ElevenLabs narration, timed animation, final mix, captions, thumbnail, MP4, and completed QA.
 
 ## Returning to an earlier phase
 
@@ -59,5 +63,5 @@ Feedback can invalidate downstream work. If a story change affects the storyboar
 - “I have rough notes; help me decide what the story is.” → Phase 1
 - “Search Glean for current context about this topic, then recommend general or customer-specific.” → Phase 1
 - “I already have an approved six-part story; visualize it and show me the gallery in Tau’s Browser sidebar.” → Phase 2
-- “The storyboard is approved; write the final spoken script and produce it.” → Phase 3
+- “The storyboard is approved; show me the full script in Tau’s Browser sidebar before generating narration.” → Phase 3
 - “Help me make one of these videos.” → Orchestrator

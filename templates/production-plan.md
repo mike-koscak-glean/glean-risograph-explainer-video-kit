@@ -4,9 +4,11 @@ This file is owned by the production phase.
 
 ## Approved inputs
 - Story approval:
-- Visible Browser-panel review:
+- Visible storyboard Browser-panel review:
 - Visual approval:
+- Visible script Browser-panel review:
 - Script approval:
+- Approved target duration:
 
 ## Audio
 - ElevenLabs voice and ID:

@@ -18,7 +18,7 @@ Business and technical audiences who know Glean as search but do not yet underst
 The useful pieces live in documents, conversations, tickets, and records. A forecast question could expand through deals, calls, support cases, customers, and product issues. Return to the idea that the foundation exists before anyone asks.
 
 ## Duration and tone
-Approximately 3–4 minutes. Warm, confident, curious, and plainspoken.
+User-provided approximate target: 3–4 minutes, flexible. Warm, confident, curious, and plainspoken.
 
 ## Evidence
 Product architecture and examples must be checked against current approved Glean materials before story approval.

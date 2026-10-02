@@ -19,6 +19,9 @@
 - [ ] Cross-fades and transitions were checked at their midpoint.
 
 ## Audio
+- [ ] The complete clean script was opened in the visible Glean Tau Browser panel before approval.
+- [ ] Script approval was based on the displayed narration, not only a word-count or duration summary.
+- [ ] Target duration, estimated duration, and spoken-word budget were reviewed.
 - [ ] Voice, model, pacing, and pronunciations are approved.
 - [ ] Every narration line matches the approved script.
 - [ ] No clipped word onset, click, or unnatural gap is audible.

@@ -16,4 +16,14 @@ This file is owned by the production phase. Keep delivery cues separate from cle
 
 ## Caption notes
 
+## Visible review record
+- Gallery: `out/script-review/index.html`
+- Shown in Glean Tau Browser panel:
+- Review date:
+- Reviewer:
+- Word count:
+- Target duration:
+- Estimated duration:
+- Decision and conditions:
+
 ## Approval record

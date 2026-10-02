@@ -4,10 +4,15 @@ A strong engine cannot rescue an unclear story. Start with the job of the video 
 
 ## Recommended length
 
-- General concept: 3–4 minutes.
-- Customer or pilot story: 4–6 minutes.
-- Aim for roughly 145–175 spoken words per minute after delivery cues and pauses.
-- Keep each narration line focused on one visual beat, often 15–35 words.
+Ask for approximate duration during initial intake. Offer:
+
+- **Short:** 60–90 seconds for one focused message.
+- **Standard:** 2–3 minutes for a compact explanation or small set of use cases.
+- **Deep:** 4–6 minutes for a detailed customer or system story.
+- **Custom:** another explicit target or range.
+- **Not sure:** recommend a target after reviewing audience, distribution, scope, and evidence, then confirm it before story approval.
+
+Aim for roughly 145–175 spoken words per minute after delivery cues and pauses. Keep each narration line focused on one visual beat, often 15–35 words.
 
 ## Context intake and project type
 

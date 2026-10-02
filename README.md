@@ -27,14 +27,14 @@ Use it for:
 
 | 01 · Story | 02 · Visual design | 03 · Production |
 |---|---|---|
-| Tau uses your rough idea, freeform notes, supplied sources, and optional Glean research to shape the story. | Tau creates the visual metaphor, scene plan, on-screen copy, logos, and style frames, then opens them in a review gallery. | Tau creates the spoken script, ElevenLabs narration, animation, audio, captions, and final render. |
-| **You approve:** project type and story | **You inspect in the Tau Browser sidebar and approve:** the visual storyboard | **You approve:** the finished video |
+| Tau asks for an approximate duration, then uses your rough idea, notes, sources, and optional Glean research to shape the story. | Tau creates the visual metaphor, scene plan, on-screen copy, logos, and style frames, then opens them in a review gallery. | Tau drafts the full spoken script and opens it in a review page. After approval, Tau creates the ElevenLabs narration, animation, audio, captions, and final render. |
+| **You approve:** duration, project type, and story | **You inspect in the Tau Browser sidebar and approve:** the visual storyboard | **You inspect and approve:** the complete script, then the finished video |
 
 > [!TIP]
 > You can stop after any phase, give feedback, and resume later. Tau records progress and approvals in `project/STATUS.md`.
 
 > [!IMPORTANT]
-> Tau must open the style frames and contact sheet in the **visible in-app Browser sidebar** before asking for visual approval. A text summary or background/headless review is not enough.
+> Tau must open both the visual storyboard and the complete spoken script in the **visible in-app Browser sidebar** before asking for approval. A text summary, word count, duration estimate, approval card, or background/headless review is not enough.
 
 ---
 
@@ -52,7 +52,7 @@ If you already know the type, replace **undecided** with **general** or **custom
 
 Tau can work from the generated folder without opening a new chat or reloading. In the same conversation, paste:
 
-> Continue working from the `videos/my-video/` folder you just created. Read and follow `.glean/skills/risograph-explainer-workflow/SKILL.md` from that project. Start with the story phase. Use my notes and sources, and search Glean when I request it. Do not move to the next phase until I approve the current one.
+> Continue working from the `videos/my-video/` folder you just created. Read and follow `.glean/skills/risograph-explainer-workflow/SKILL.md` from that project. Start with the story phase. Ask for my approximate target duration early, or recommend one if I am not sure. Use my notes and sources, and search Glean when I request it. Do not move to the next phase until I approve the current one.
 
 Tau will use the generated project as its working location and begin the guided workflow there.
 
@@ -64,10 +64,11 @@ You do **not** need to complete a questionnaire. Begin with any combination of:
 - **A Glean research request:** “Search Glean for current context about this topic or account before recommending the story.”
 - **Freeform notes:** Paste fragments, miscellaneous context, examples, constraints, or half-formed ideas into chat or `project/intake-notes.md`.
 - **Supplied sources:** Attach or link calls, notes, documents, presentations, and approved logo assets.
+- **Approximate duration:** Choose **short (60–90 seconds)**, **standard (2–3 minutes)**, **deep (4–6 minutes)**, a custom target, or **not sure—recommend one**.
 
 Tell Tau whether to use **Glean search**, **supplied sources only**, **both**, or **ask first**. If the project type is undecided, Tau will recommend **general** or **customer-specific** after reviewing the context.
 
-Add audience, outcome, duration, or uncertainty when you know them. Tau should ask only for missing information that materially changes the story.
+Add audience, outcome, and uncertainty when you know them. Tau should ask only for missing information that materially changes the story, but it must confirm a target duration before story approval.
 
 ### 4 · Review, approve, and receive the final package
 
@@ -95,7 +96,7 @@ A completed production normally includes:
 >
 > This workflow was built and tested with a paid **ElevenLabs Creator** account. It has not been verified with the free plan or lower tiers. Model access, audio-generation features, and available credits can vary by plan, so confirm that your account supports the required features before production.
 
-Story and visual design do **not** require ElevenLabs. You need it only to audition voices or generate narration, sound effects, and music.
+Story and visual design do **not** require ElevenLabs. The complete spoken script must first be displayed in Tau’s visible Browser sidebar and approved. You need ElevenLabs only after that gate, to audition voices or generate narration, sound effects, and music.
 
 ### 1. Create an ElevenLabs API key
 
@@ -177,7 +178,7 @@ Production also requires Node.js 20 or newer plus FFmpeg and ffprobe. Tau can ch
 
 ### Produce an approved storyboard
 
-> The story and visual storyboard are approved. Use `produce-risograph-explainer-video` to draft the spoken script for my approval, then produce and validate the final video.
+> The story and visual storyboard are approved. Use `produce-risograph-explainer-video` to draft the spoken script, open the complete review page in Tau’s visible Browser sidebar, and ask for approval only after I can read it. Do not configure paid narration until I approve the displayed script. Then produce and validate the final video.
 
 ### Resume existing work
 

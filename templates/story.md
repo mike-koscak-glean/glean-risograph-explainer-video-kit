@@ -54,6 +54,11 @@ General explainer / Customer-specific
 ## Proposed closing
 
 ## Duration and density
+- Confirmed target:
+- Source: User-provided / Tau-recommended
+- Flexibility: Fixed / Approximate / Flexible
+- Approximate spoken-word budget:
+- Scope choices made to fit the target:
 
 ## Unresolved questions
 
