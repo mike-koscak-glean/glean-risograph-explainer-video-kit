@@ -1,0 +1,12 @@
+{
+  "name": "glean-risograph-editorial-explainer-video-kit",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "new": "node scripts/new-video.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
