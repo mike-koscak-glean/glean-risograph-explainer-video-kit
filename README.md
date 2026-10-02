@@ -4,6 +4,11 @@ Create polished narrated videos in a consistent risograph-inspired editorial sty
 
 **Story → Visual design → Narrated video**
 
+<p align="center">
+  <img src="docs/risograph-style-preview.png" alt="ExampleCo sample frame showing the kit's paper texture, halftone color, editorial typography, and diagram-led composition" width="100%">
+</p>
+<p align="center"><sub>Sanitized ExampleCo sample frame rendered with the included video engine.</sub></p>
+
 > [!NOTE]
 > **No coding is required.** Give Glean Tau the repository, your source material, and the outcome you want. Tau guides the work and pauses for your approval between phases.
 
