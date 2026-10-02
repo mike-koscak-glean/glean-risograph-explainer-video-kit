@@ -81,6 +81,9 @@ A completed production normally includes:
 <details>
 <summary><strong>Set up ElevenLabs for narration</strong> — needed only when you are ready to create audio</summary>
 
+> [!NOTE]
+> This workflow was built and tested with a paid **ElevenLabs Creator** account. It has not been verified with the free plan or lower tiers. Model access, audio-generation features, and available credits can vary by plan, so confirm that your account supports the required features before production.
+
 Story and visual design do **not** require ElevenLabs. You need it only to audition voices or generate narration, sound effects, and music.
 
 ### 1. Create an ElevenLabs API key
