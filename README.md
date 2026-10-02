@@ -81,7 +81,8 @@ A completed production normally includes:
 <details>
 <summary><strong>Set up ElevenLabs for narration</strong> — needed only when you are ready to create audio</summary>
 
-> [!NOTE]
+> **Plan compatibility**
+>
 > This workflow was built and tested with a paid **ElevenLabs Creator** account. It has not been verified with the free plan or lower tiers. Model access, audio-generation features, and available credits can vary by plan, so confirm that your account supports the required features before production.
 
 Story and visual design do **not** require ElevenLabs. You need it only to audition voices or generate narration, sound effects, and music.
@@ -90,7 +91,8 @@ Story and visual design do **not** require ElevenLabs. You need it only to audit
 
 Sign in to ElevenLabs, open the **API Keys** area in account settings, and create a key for this workflow. Copy it somewhere temporarily and securely.
 
-> [!CAUTION]
+> **Keep your API key private**
+>
 > Do not paste the key into Tau, a document, Slack, or GitHub. Enter it directly into the local hidden file described below.
 
 ### 2. Ask Tau to prepare the hidden `.env` file
