@@ -4,6 +4,9 @@ Create polished narrated videos in a consistent risograph-inspired editorial sty
 
 **Story → Visual design → Narrated video**
 
+> [!IMPORTANT]
+> **Use Opus 5.5 in Glean Tau for this workflow.** Select Opus 5.5 before asking Tau to download the kit and begin the project.
+
 <p align="center">
   <img src="docs/risograph-style-preview.png" alt="ExampleCo sample frame showing the kit's paper texture, halftone color, editorial typography, and diagram-led composition" width="100%">
 </p>
