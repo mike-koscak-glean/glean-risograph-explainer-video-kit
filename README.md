@@ -41,11 +41,13 @@ Start a Glean Tau chat and paste:
 
 For a non-customer video, replace **customer** with **general**. Tau will clone the repository and create an independent project in `videos/customer-pilot/`.
 
-### 2 · Open the generated project and load the skills
+### 2 · Continue in the same chat
 
-Open the generated `videos/customer-pilot/` folder in Glean Tau. Start a new chat or run `/reload`, then paste:
+Tau can work from the generated folder without opening a new chat or reloading. In the same conversation, paste:
 
-> Use the `risograph-explainer-workflow` skill to help me create this video. Start with the story phase. Do not move to the next phase until I approve the current one.
+> Continue working from the `videos/customer-pilot/` folder you just created. Read and follow `.glean/skills/risograph-explainer-workflow/SKILL.md` from that project. Start with the story phase, and do not move to the next phase until I approve the current one.
+
+Tau will use the generated project as its working location and begin the guided workflow there.
 
 ### 3 · Give Tau the inputs
 
