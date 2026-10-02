@@ -7,6 +7,16 @@ Use it for:
 - **General explainers** that teach a Glean idea or capability.
 - **Customer videos** that turn approved account context and use cases into a co-branded story.
 
+## How the process works
+
+Tau guides the project through three separate phases. You review and approve each phase before it moves forward:
+
+1. **Create the story** — Tau reviews your source material, clarifies the audience and goal, separates confirmed facts from assumptions, and proposes the narrative structure. **Outcome: an approved story.**
+2. **Design the visuals** — Tau translates the story into the risograph editorial style, including the visual metaphor, scenes, on-screen copy, logos, and representative style frames. **Outcome: an approved visual storyboard.**
+3. **Produce the video** — Tau writes the spoken script, generates the approved ElevenLabs narration, builds and times the animation, adds music and effects, creates captions, and validates the final render. **Outcome: a finished narrated video.**
+
+You can stop after any phase, provide feedback, and resume later. Tau records approvals and progress in the generated project.
+
 ## Fastest way to use this in Glean Tau
 
 You do not need to write code. Give Tau the repository, your source material, and the outcome you want. Tau guides you through the story, visual design, and production in separate approval steps.
