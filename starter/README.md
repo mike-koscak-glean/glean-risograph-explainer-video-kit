@@ -2,7 +2,13 @@
 
 A working, sanitized ExampleCo sample built with the Glean Risograph Editorial Explainer Video Kit. The project generator copies this engine into each new video.
 
-Do not edit the shared starter for one-off content. Generate an independent project from the kit root. The generated project contains `project/STATUS.md`, phase artifacts, all four Glean Desktop skills, references, and its own source tree.
+Do not edit the shared starter for one-off content. Generate an independent project from the kit root. Each generated project contains:
+
+- Flexible general, customer-specific, or undecided intake
+- `project/intake-notes.md` for freeform context
+- `project/research-notes.md` for Glean and supplied-source research
+- `project/STATUS.md` plus all gated phase artifacts
+- All four Glean Tau skills, references, and its own source tree
 
 ## Production commands
 

@@ -2,6 +2,9 @@
 
 This file is owned by the story phase. Do not prescribe final frames here.
 
+## Project type
+General explainer / Customer-specific
+
 ## Working title
 
 ## One-sentence promise

@@ -1,51 +1,51 @@
-# Customer Video Brief
+# Video Brief — Customer-Specific
 
-Complete what you know. Use `Unknown` rather than guessing.
+This is a working intake, not a required questionnaire. Complete only what is useful. A customer name, a Glean research request, supplied sources, or freeform notes in `intake-notes.md` are enough to begin. Use `Unknown` rather than guessing.
 
-## Customer and working title
+## Project type
+- Selected: **Customer-specific**
+- May change before story approval: Yes
 
-## Audience
-Who is the internal or customer audience?
+A customer-specific video uses approved account context, language, use cases, brand, or proposed program details. It must keep confirmed, proposed, illustrative, and unknown information distinct.
 
-## Job of the video
-What decision, alignment, or next step should this support?
+## Starting point
+- Customer or account, if known:
+- Topic or rough idea:
+- Desired audience outcome:
+- Audience, if known:
+- Desired duration, if known:
 
-## Approved customer context
-Describe the current environment and confirmed priorities.
+## Context and research
+- Research approach: **Search Glean / Supplied sources only / Both / Ask first**
+- What should Tau search for in Glean?
+- Useful account names, people, teams, opportunities, projects, products, or time frame:
+- Apps or source types to prioritize:
+- Sources or topics to exclude:
 
-## Proposed use cases
-For each use case include: user, trigger, current friction, Glean-assisted outcome, source, and whether it is agreed or proposed.
+## Supplied source material
+List files, URLs, notes, calls, transcripts, or presentations. Mark authoritative sources when known.
 
-## Pilot or program scope
-Mark every date, user count, connector, threshold, and success criterion as **confirmed**, **proposed**, **illustrative**, or **unknown**.
+## Freeform notes
+Use `project/intake-notes.md` for raw thoughts, copied notes, examples, constraints, or anything that does not fit this brief.
 
-## Systems and logos
-List confirmed systems separately from possible future systems.
+## Customer-specific details
+Complete only what is known or discovered from approved sources:
 
-## Source material
-List approved documents, calls, notes, local files, and URLs. State which sources are authoritative.
-
-## Value framing
-Use customer baselines where possible. Do not convert directional assumptions into results.
-
-## Fictionalization
-- May fictional people be used?
-- May a fictional customer account be used?
-- Customer details that must not appear:
-
-## Brand
+- Current environment and priorities:
+- Proposed or agreed use cases:
+- Pilot or program scope:
+- Confirmed systems and approved logos:
+- Value framing and customer baselines:
+- Dates, metrics, or claims requiring revalidation:
+- Details that must not appear:
 - Customer logo approved for this use?
-- Brand colors:
-- Co-brand order:
 - Legal or communications review required?
 
-## Desired duration
-Recommended: 4–6 minutes.
+## Fictionalization
+- May fictional people or scenarios be used?
+- May a fictional account name be used?
 
-## Tone and voice
+## Tone, voice, and visual preferences
 
-## Closing and CTA
-Avoid unstable dates unless explicitly confirmed.
-
-## Approvers
-Who approves customer facts, pilot claims, brand, script, and final video?
+## Distribution and approvers
+Where will this be shown, and who must approve customer facts, proposed scope, brand, script, and final video?

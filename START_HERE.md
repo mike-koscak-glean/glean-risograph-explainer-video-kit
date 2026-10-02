@@ -1,44 +1,52 @@
 # Start Here
 
-The recommended experience is staggered. Begin with an idea, approve the story, approve the visuals, and only then produce the narrated video.
+The workflow is staggered: gather context, approve the story, approve the visuals, and only then produce the narrated video. A user can start from a rough idea, freeform notes, supplied sources, a Glean search request, or any combination.
 
-## 1. Install prerequisites
+## 1. Create a project
 
-```bash
-node --version
-npm --version
-ffmpeg -version
-ffprobe -version
-```
-
-Use Node.js 20 or newer. ElevenLabs is not needed during the story or visual phase.
-
-## 2. Create a project
-
-From the kit root:
+If the video type is not yet clear:
 
 ```bash
-npm run new -- my-video --mode general
+npm run new -- my-video --mode undecided
 ```
 
-For a customer-specific story:
+Or select a known type:
 
 ```bash
-npm run new -- customer-name-pilot --mode customer
+npm run new -- concept-explainer --mode general
+npm run new -- customer-pilot --mode customer
 ```
 
-## 3. Begin in Glean Desktop
+Without `--mode`, the generator defaults to `undecided`.
 
-Open `videos/<name>/` in Glean Desktop. Start a new session or run `/reload`, then say:
+## 2. Continue in the same Tau chat
 
-> Use the risograph-explainer-workflow skill to help me continue this project.
+Tell Tau to work from the folder it just created:
 
-Tau reads `project/STATUS.md` and begins the correct phase.
+> Continue working from `videos/my-video/`. Read and follow `.glean/skills/risograph-explainer-workflow/SKILL.md`. Start with the story phase and pause for approval before each later phase.
+
+Tau can navigate to the generated folder. A new chat or `/reload` is not required when Tau reads the workflow file directly.
+
+## 3. Choose how to provide context
+
+Use one or more inputs:
+
+- A sentence describing the idea or desired outcome
+- Freeform notes in chat or `project/intake-notes.md`
+- Files, URLs, calls, notes, or presentations
+- A request to search Glean for workplace, topic, project, or account context
+
+Set the research approach to **Glean search**, **Supplied sources only**, **Both**, or **Ask first**. Tau records research and source links in `project/research-notes.md`.
+
+The brief is a working aid, not a required form. Tau should ask only for missing information that materially changes the story.
+
+## 4. Complete the gated phases
 
 ### Phase 1: Story
 
-Complete `project/brief.md` with what you know. Tau helps produce and approve:
+Tau confirms or recommends **General**, **Customer-specific**, or **Undecided**, gathers requested context, and produces:
 
+- `research-notes.md`
 - `facts-and-claims.md`
 - `story.md`
 
@@ -57,15 +65,16 @@ No final narration or full render occurs.
 
 ### Phase 3: Production
 
-After visual approval, configure ElevenLabs:
+After visual approval, install prerequisites and configure ElevenLabs:
 
 ```bash
+node --version
+ffmpeg -version
 npm install
 cp .env.example .env
-npm run voices
 ```
 
-Add `ELEVENLABS_API_KEY` and `ELEVEN_VOICE_ID` to `.env`. Then Tau produces:
+Use Node.js 20 or newer. Add `ELEVENLABS_API_KEY` and the selected `ELEVEN_VOICE_ID` to `.env` without sharing the key in chat. Then Tau produces:
 
 - `script.md`
 - `production-plan.md`

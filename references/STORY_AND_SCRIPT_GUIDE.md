@@ -9,6 +9,16 @@ A strong engine cannot rescue an unclear story. Start with the job of the video 
 - Aim for roughly 145–175 spoken words per minute after delivery cues and pauses.
 - Keep each narration line focused on one visual beat, often 15–35 words.
 
+## Context intake and project type
+
+A project can start from a rough idea, freeform notes, supplied sources, Glean workplace research, or any combination. The brief is a working aid rather than a required questionnaire.
+
+- Choose **General explainer** when the story teaches a durable idea, capability, workflow, or point of view.
+- Choose **Customer-specific** when one account’s context, language, people, brand, use cases, or proposed program is central.
+- Keep **Undecided** until research reveals the stronger framing. Present the tradeoff and get approval before finalizing the story.
+
+Glean research can support either type. Record source URLs, freshness, conflicts, and gaps in `project/research-notes.md`. Do not treat a search result as an approved claim until it is classified in `project/facts-and-claims.md`.
+
 ## General explainer structure
 
 1. **Opening tension:** Ask the question or show the fragmentation.

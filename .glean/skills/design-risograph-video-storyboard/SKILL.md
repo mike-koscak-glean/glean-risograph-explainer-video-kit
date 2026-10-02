@@ -8,7 +8,7 @@ Translate the approved story into a visual system before voice generation or ful
 
 ## Preconditions
 
-Read `project/STATUS.md` and confirm the story gate is approved. Read `project/story.md`, `project/brand.md`, `project/facts-and-claims.md`, and `references/DESIGN_SYSTEM.md`.
+Read `project/STATUS.md` and confirm the project-type and story gates are approved. Read `project/story.md`, `project/research-notes.md`, `project/brand.md`, `project/facts-and-claims.md`, and `references/DESIGN_SYSTEM.md`.
 
 ## Workflow
 

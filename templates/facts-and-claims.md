@@ -1,6 +1,6 @@
 # Facts and Claims Register
 
-Every customer-facing statement must appear here or be directly supported by an approved source.
+Every factual statement intended for an external or customer-facing video must appear here or be directly supported by an approved source. General explainers still require evidence for product, market, architecture, metric, and customer claims.
 
 | Claim or detail | Status | Source | Owner | Allowed wording |
 |---|---|---|---|---|

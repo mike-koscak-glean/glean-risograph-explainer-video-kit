@@ -1,51 +1,44 @@
-# General Explainer Brief
+# Video Brief — General Explainer
 
-Complete what you know. Use `Unknown` where information is missing.
+This is a working intake, not a required questionnaire. Complete only what is useful. A rough idea, a Glean research request, supplied sources, or freeform notes in `intake-notes.md` are enough to begin.
 
-## Working title
+## Project type
+- Selected: **General explainer**
+- May change before story approval: Yes
 
-## Audience
-Who will watch this, and what do they already understand?
+A general explainer teaches a durable idea, capability, workflow, or point of view. It can use internal context without being about one customer.
 
-## Job of the video
-What should the audience understand, believe, or do afterward?
+## Starting point
+- Topic or rough idea:
+- Desired audience outcome:
+- Audience, if known:
+- Desired duration, if known:
 
-## Core idea
-State the idea in one sentence.
+## Context and research
+- Research approach: **Search Glean / Supplied sources only / Both / Ask first**
+- What should Tau search for in Glean?
+- Useful names, teams, products, projects, concepts, or time frame:
+- Apps or source types to prioritize:
+- Sources or topics to exclude:
 
-## Problem or tension
-What is confusing, difficult, fragmented, or newly possible?
+## Supplied source material
+List files, URLs, notes, transcripts, or presentations. Mark authoritative sources when known.
 
-## Desired duration
-Recommended: 3–5 minutes.
+## Freeform notes
+Use `project/intake-notes.md` for raw thoughts, copied notes, examples, constraints, or anything that does not fit this brief.
 
-## Source material
-List local files and approved URLs. Mark the authoritative source.
+## General explainer details
+- Core idea, if known:
+- Problem, tension, or common misunderstanding:
+- Required concepts:
+- Concepts to avoid:
+- Example or scenario that could make the idea concrete:
+- Closing thought or call to action:
 
-## Required concepts
+## Customer-specific context, if relevant
+Leave blank when not applicable. If one account becomes central, change the project type to **Customer-specific** before story approval.
 
-## Concepts to avoid
+## Tone, voice, and visual preferences
 
-## Story shape
-- Opening question or tension:
-- Explanation or model:
-- Concrete example:
-- Broader implication:
-- Closing line or CTA:
-
-## Tone
-Examples: warm, confident, curious, plainspoken, technical, executive.
-
-## Visual requirements
-List systems, logos, diagrams, people, or metaphors that should appear.
-
-## Voice and audio
-- Preferred voice:
-- Pronunciations:
-- Music preference:
-
-## Distribution
-Where will this be shown? Internal, social, customer-facing, event, or other?
-
-## Approvers
-Who approves facts, script, brand, and final video?
+## Distribution and approvers
+Where will this be shown, and who must approve facts, brand, script, and final video?

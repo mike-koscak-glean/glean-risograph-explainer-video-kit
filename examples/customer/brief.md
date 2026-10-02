@@ -1,31 +1,24 @@
 # Example: Sanitized Customer Pilot Video
 
-## Customer and audience
-ExampleCo. Internal customer stakeholders who need to understand the proposed pilot and the relationship between use cases.
+## Project type
+Customer-specific.
 
-## Job of the video
-Show how one permission-aware Glean foundation can improve the customer journey across sales, presales, customer success, services, renewals, support, and engineering.
+## Starting point
+Show how one permission-aware Glean foundation could improve the customer journey across sales, presales, customer success, services, renewals, support, and engineering for fictional ExampleCo.
 
-## Proposed use cases
-1. Account brief and call preparation.
-2. Customer handoff generated from source systems.
-3. RFP and product-answer assistance with citations and expert review.
-4. Support-to-engineering investigation that follows known connections.
+## Context and research
+- Approach: Combine supplied account notes with a Glean search when explicitly requested.
+- Search focus: approved priorities, current systems, agreed or proposed use cases, pilot scope, and recent account language.
+- Treat all scope, dates, user counts, connectors, and criteria as proposed until an authoritative source confirms them.
 
-## Value framing
-Compare each workflow with ExampleCo’s own baseline. Show less time and better work directionally without invented percentages or ROI figures.
+## Audience and outcome
+Internal and customer stakeholders who need to understand the proposed pilot and the relationship between use cases.
 
-## Pilot language
-All scope, user counts, connectors, dates, and criteria are proposed until approved. Avoid a decision date if timing is in flux.
+## Freeform notes
+Possible use cases include account preparation, customer handoffs, RFP assistance with citations and expert review, and support-to-engineering investigation. Compare each workflow with the customer’s own baseline. Show “less time, better work” directionally without invented percentages or ROI.
 
-## Fictionalization
-Use fictional people and the fictional Northstar account.
+## Fictionalization and brand
+Use fictional people and a fictional Northstar account. Use the placeholder ExampleCo logo and cyan accent until an approved customer asset and authorization are documented.
 
-## Brand
-Use the placeholder ExampleCo logo and cyan accent. Replace them only with an approved customer asset and documented authorization.
-
-## Duration
-Approximately 4–5 minutes.
-
-## Tone
-Customer-specific, credible, warm, and not overly dense.
+## Duration and tone
+Approximately 4–5 minutes. Customer-specific, credible, warm, and not overly dense.

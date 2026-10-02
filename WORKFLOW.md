@@ -1,23 +1,36 @@
 # Staggered Risograph Editorial Explainer Workflow
 
-The kit is one package with one engine and four project skills. Users can start with the orchestrator or enter a specialist phase directly.
+The kit is one package with one engine and four project skills. It supports general explainers, customer-specific videos, and projects whose type is not yet decided.
+
+## Flexible intake
+
+The story phase can begin from any combination of:
+
+- A rough idea or outcome
+- Freeform notes in chat or `project/intake-notes.md`
+- Supplied files, URLs, calls, notes, or presentations
+- A request to search Glean for workplace or account context
+
+The user selects **Glean search**, **Supplied sources only**, **Both**, or **Ask first**. Tau records searches, sources, findings, and gaps in `project/research-notes.md`. The structured brief is optional working context, not a questionnaire that must be completed.
 
 ## End-to-end entry point
 
 Invoke `risograph-explainer-workflow` when:
 
-- The user has only an idea or source material.
+- The user has only an idea, miscellaneous notes, or source material.
+- The user wants Tau to search Glean before shaping the story.
+- The project might be general or customer-specific.
 - The correct next phase is unclear.
 - Work should resume from an existing project.
 - The user wants Tau to manage all approval gates.
 
-The orchestrator reads `project/STATUS.md` and loads the appropriate specialist skill.
+The orchestrator reads `project/STATUS.md` and the intake artifacts, then loads the appropriate specialist skill.
 
 ## Phase 1 — Shape the story
 
-Invoke `shape-risograph-video-story` when the audience, purpose, evidence, narrative arc, examples, or duration is not approved.
+Invoke `shape-risograph-video-story` when project type, audience, purpose, evidence, narrative arc, examples, or duration is not approved.
 
-**Ends with:** `story.md` and updated facts/claims.
+**Ends with:** confirmed project type, `research-notes.md`, `facts-and-claims.md`, `story.md`, and updated status.
 
 **Does not do:** final visual design, scene coding, ElevenLabs, or rendering.
 
@@ -41,7 +54,8 @@ Feedback can invalidate downstream work. If a story change affects the storyboar
 
 ## Direct-entry examples
 
-- “I have a rough topic but no story.” → Phase 1
+- “I have rough notes; help me decide what the story is.” → Phase 1
+- “Search Glean for current context about this topic, then recommend general or customer-specific.” → Phase 1
 - “I already have an approved six-part story; help me visualize it.” → Phase 2
 - “The storyboard is approved; write the final spoken script and produce it.” → Phase 3
 - “Help me make one of these videos.” → Orchestrator

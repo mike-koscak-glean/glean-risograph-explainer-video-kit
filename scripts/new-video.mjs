@@ -7,14 +7,14 @@ const root = resolve(here, '..');
 const args = process.argv.slice(2);
 const name = args.find((a, i) => !a.startsWith('-') && args[i - 1] !== '--mode');
 const modeAt = args.indexOf('--mode');
-const mode = modeAt >= 0 ? args[modeAt + 1] : 'general';
+const mode = modeAt >= 0 ? args[modeAt + 1] : 'undecided';
 
 if (!name || !/^[a-z0-9][a-z0-9-]*$/.test(name)) {
-  console.error('Usage: npm run new -- <lowercase-name> --mode general|customer');
+  console.error('Usage: npm run new -- <lowercase-name> --mode general|customer|undecided');
   process.exit(1);
 }
-if (!['general', 'customer'].includes(mode)) {
-  console.error('Mode must be general or customer.');
+if (!['general', 'customer', 'undecided'].includes(mode)) {
+  console.error('Mode must be general, customer, or undecided.');
   process.exit(1);
 }
 
@@ -30,6 +30,8 @@ mkdirSync(join(target, 'project'), { recursive: true });
 cpSync(join(root, 'templates', mode, 'brief.md'), join(target, 'project', 'brief.md'));
 for (const file of [
   'STATUS.md',
+  'intake-notes.md',
+  'research-notes.md',
   'brand.md',
   'facts-and-claims.md',
   'story.md',
@@ -40,12 +42,17 @@ for (const file of [
 ]) {
   cpSync(join(root, 'templates', file), join(target, 'project', file));
 }
+const modeLabel = {
+  general: 'General',
+  customer: 'Customer-specific',
+  undecided: 'Undecided',
+}[mode];
 const statusPath = join(target, 'project', 'STATUS.md');
 writeFileSync(
   statusPath,
   readFileSync(statusPath, 'utf8')
     .replace('- Name:', `- Name: ${name}`)
-    .replace('- Mode: General / Customer', `- Mode: ${mode === 'customer' ? 'Customer' : 'General'}`),
+    .replace('- Mode: General / Customer-specific / Undecided', `- Mode: ${modeLabel}`),
 );
 // Copy all phase skills so users can enter at any phase or use the orchestrator.
 mkdirSync(join(target, '.glean'), { recursive: true });
@@ -73,8 +80,7 @@ writeFileSync(
 console.log(`Created ${target}`);
 console.log(`Mode: ${mode}`);
 console.log('Next:');
-console.log(`  cd ${target}`);
-console.log('  npm install');
-console.log('  cp .env.example .env');
-console.log('  complete project/brief.md');
-console.log('  open this folder in Glean Desktop, run /reload, and invoke risograph-explainer-workflow');
+console.log(`  Continue in Tau from ${target}`);
+console.log('  Share a rough idea, add project/intake-notes.md, supply sources, request a Glean search, or combine them.');
+console.log('  Ask Tau to read .glean/skills/risograph-explainer-workflow/SKILL.md and begin the story phase.');
+console.log('  Install dependencies and configure .env only when production begins.');
