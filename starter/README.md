@@ -39,6 +39,8 @@ npm run mix
 - `src/scenes/` — visual implementation.
 - `src/ink.ts` — risograph editorial design system.
 - `tools/` — voice, sound, rendering, mixing, and captions.
-- `public/logos/` — local approved logo assets.
+- `public/logos/` — active local logo assets.
+- `public/logos/library/` — searchable on-demand app-logo library; browse at `/logos/library/` during `npm run dev`.
+- `src/logo-library.ts` — generated typed paths for available app logos.
 
 The ExampleCo customer, people, account, use cases, and measurements are illustrative. Replace them through the gated workflow and revalidate every claim.

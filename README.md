@@ -193,6 +193,7 @@ Production also requires Node.js 20 or newer plus FFmpeg and ffprobe. Tau can ch
 - [WORKFLOW.md](WORKFLOW.md) — phase boundaries and approval logic
 - [SKILLS.md](SKILLS.md) — what each Tau skill does
 - [references/DESIGN_SYSTEM.md](references/DESIGN_SYSTEM.md) — the risograph editorial aesthetic
+- [references/APP_LOGO_LIBRARY.md](references/APP_LOGO_LIBRARY.md) — searchable local app-logo library and sync workflow
 - [references/STORY_AND_SCRIPT_GUIDE.md](references/STORY_AND_SCRIPT_GUIDE.md) — narrative and spoken-script guidance
 - [references/ELEVENLABS_AND_AUDIO.md](references/ELEVENLABS_AND_AUDIO.md) — voice and audio workflow
 - [QA_CHECKLIST.md](QA_CHECKLIST.md) — final review criteria

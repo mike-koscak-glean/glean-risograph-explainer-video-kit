@@ -1,6 +1,11 @@
 # Local Logo Catalog
 
-These assets ship with the sanitized starter. Review trademark and distribution rights before publishing the repository.
+The starter ships with two tiers:
+
+- **Active set:** the 27 files below, used directly by the sanitized sample and preloaded by `src/logos.ts`.
+- **On-demand library:** 162 additional local assets under `starter/public/logos/library/`, indexed with the active matches in `catalog.json` and `src/logo-library.ts`.
+
+See [APP_LOGO_LIBRARY.md](APP_LOGO_LIBRARY.md) for the searchable gallery, source inventory, sync workflow, and one currently unavailable source asset. Review trademark and distribution rights before publishing or sharing any mark.
 
 | Key | File |
 |---|---|

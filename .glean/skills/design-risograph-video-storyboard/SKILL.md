@@ -13,7 +13,7 @@ Read `project/STATUS.md` and confirm the project-type and story gates are approv
 ## Create the visual direction
 
 1. Identify the central visual metaphor and repeated visual grammar for the story.
-2. Define the palette, customer accent, logo plan, personas, system marks, typography, and co-brand treatment in `project/visual-direction.md`.
+2. Define the palette, customer accent, logo plan, personas, system marks, typography, and co-brand treatment in `project/visual-direction.md`. Before downloading any product mark, search `src/logo-library.ts` or the local `/logos/library/` gallery. Activate only the logos the story needs in `src/logos.ts`; do not preload the full library.
 3. Draft `project/storyboard.md`: one row per visual beat with section, purpose, visual action, on-screen copy, evidence status, and rough duration.
 4. Keep one primary visual idea per beat. Use narration for detail and visuals for structure.
 5. Prefer the existing scene grammar: opener, journey, silos, index/orbit, graph, today-versus-Glean, cited brief, agent, value, scorecard, and closing return.

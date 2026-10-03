@@ -1,3 +1,5 @@
+# Legacy mixed URL inventory retained for historical reference.
+# Use app-logo-assets.csv and APP_LOGO_LIBRARY.md for the current app-logo catalog.
 https://app.glean.com/images/claude.svg
 https://app.glean.com/images/logos/nvidia.svg
 https://app.glean.com/images/logos/openai.svg

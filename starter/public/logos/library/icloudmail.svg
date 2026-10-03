@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" role="img" aria-label="iCloud Mail">
+  <rect width="24" height="24" rx="5" fill="#3693F3"/>
+  <rect x="4.5" y="6.75" width="15" height="10.5" rx="2" fill="none" stroke="#fff" stroke-width="1.5"/>
+  <path d="M5 8l7 5 7-5" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

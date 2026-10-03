@@ -1,0 +1,1792 @@
+[
+  {
+    "key": "adobe",
+    "filename": "adobe.svg",
+    "path": "/logos/library/adobe.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/adobe.svg",
+    "foundIn": "datasources.ts;glean-docs:workfront",
+    "bytes": 418,
+    "sha256": "5e873f9d170462f09cd5d36a25a3521547b52a6f9217ea59e0d283217f996556"
+  },
+  {
+    "key": "affinity",
+    "filename": "affinity.svg",
+    "path": "/logos/library/affinity.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/affinity.svg",
+    "foundIn": "datasources.ts;glean-docs:affinity",
+    "bytes": 2507,
+    "sha256": "f957ceca3e713d4179c3f022b745316bfbba8e778dab4ad067adabeb5432134e"
+  },
+  {
+    "key": "aha",
+    "filename": "aha.svg",
+    "path": "/logos/library/aha.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/aha.svg",
+    "foundIn": "datasources.ts;glean-docs:aha",
+    "bytes": 1813,
+    "sha256": "c8ab9518d026248b10797183e253e68eb2e5da6db989b45893a147e47ac763df"
+  },
+  {
+    "key": "airtable",
+    "filename": "airtable.svg",
+    "path": "/logos/library/airtable.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/airtable.svg",
+    "foundIn": "datasources.ts;glean-docs:airtable",
+    "bytes": 1851,
+    "sha256": "27b938af8cf245a4d59da222640857814e4c336dad053950e5ab6b9d11f3ce78"
+  },
+  {
+    "key": "all",
+    "filename": "all.svg",
+    "path": "/logos/library/all.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/all.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 477,
+    "sha256": "bd33f6efb3dd1c7271d549eeee02b37c1f65fc0edd8d0940309a520ac020dea0"
+  },
+  {
+    "key": "announcements",
+    "filename": "announcements.svg",
+    "path": "/logos/library/announcements.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/announcements.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1387,
+    "sha256": "60bd59fde22acdf8f396c40dc97aedcabf1637f6ee335f19cd638b7e7014d8aa"
+  },
+  {
+    "key": "answers2",
+    "filename": "answers2.svg",
+    "path": "/logos/library/answers2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/answers2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1462,
+    "sha256": "09f925057436006e3d953bbaca96fe5049d7d9a62271342b25f626d6a14e2dd8"
+  },
+  {
+    "key": "anthropic",
+    "filename": "anthropic.svg",
+    "path": "/logos/library/anthropic.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/anthropic.svg",
+    "foundIn": "glean-docs:anthropic",
+    "bytes": 377,
+    "sha256": "181bc3aac4d9bcc3155ea02fa2593cd1524b2effaa235fced1c8206434d3b4d4"
+  },
+  {
+    "key": "asana",
+    "filename": "asana.svg",
+    "path": "/logos/library/asana.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/asana.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1485,
+    "sha256": "5c6b004124a5a807216bdb11eb1b06e0b4a09e9fc16269a8331d629e546c685f"
+  },
+  {
+    "key": "atlassian",
+    "filename": "atlassian.svg",
+    "path": "/logos/library/atlassian.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/atlassian.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 791,
+    "sha256": "733311639a2f953b04f29874aac7db1f358a75ba779496c3755f61a254b07ab7"
+  },
+  {
+    "key": "autodesk-dark",
+    "filename": "autodesk-dark.svg",
+    "path": "/logos/library/autodesk-dark.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/autodesk-dark.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 633,
+    "sha256": "4af82ba68e25b8aae90e944e710d08a5ba5e4058d58520f229bfeaf339174483"
+  },
+  {
+    "key": "autodesk",
+    "filename": "autodesk.svg",
+    "path": "/logos/library/autodesk.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/autodesk.svg",
+    "foundIn": "datasources.ts;glean-docs:autodesk-construction-cloud",
+    "bytes": 357,
+    "sha256": "48f6d9773b1aeb727cf6cb4fcf0f71dff95c45e1b80ce9649f00c2b9b599362d"
+  },
+  {
+    "key": "aws",
+    "filename": "aws.svg",
+    "path": "/logos/library/aws.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/aws.svg",
+    "foundIn": "glean-docs:aws",
+    "bytes": 3290,
+    "sha256": "be1d830b6faa25f7e23054f518a5d2c6f9981db5df3668d71468a966f2cd98db"
+  },
+  {
+    "key": "azure",
+    "filename": "azure.svg",
+    "path": "/logos/library/azure.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/azure.svg",
+    "foundIn": "datasources.ts;glean-docs:azure",
+    "bytes": 473,
+    "sha256": "2ec6bbeefe215bdd20beb7007814abe3e440d87a937b438f32250fe153467b72"
+  },
+  {
+    "key": "azuredevops",
+    "filename": "azuredevops.svg",
+    "path": "/logos/library/azuredevops.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/azuredevops.svg",
+    "foundIn": "datasources.ts;glean-docs:azure-devops",
+    "bytes": 728,
+    "sha256": "9f919f0337e2e2c7afe202651a663d0454e5c3638c5113ca32b235d7336ca70b"
+  },
+  {
+    "key": "bamboohr-2",
+    "filename": "bamboohr-2.svg",
+    "path": "/logos/library/bamboohr-2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/bamboohr-2.svg",
+    "foundIn": "datasources.ts;glean-docs:bamboohr",
+    "bytes": 7494,
+    "sha256": "2dd127f847e54c16b459685aae71514fbd5adff47325a655d1198488d2546f6d"
+  },
+  {
+    "key": "bigquery",
+    "filename": "bigquery.svg",
+    "path": "/logos/library/bigquery.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/bigquery.svg",
+    "foundIn": "datasources.ts;glean-docs:bigquery",
+    "bytes": 1406,
+    "sha256": "e18bcc1148d3b84f80fc643db02cb78713173536aa4a8f031361ff304d8365c2"
+  },
+  {
+    "key": "bitbucket",
+    "filename": "bitbucket.png",
+    "path": "/logos/library/bitbucket.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/bitbucket.png",
+    "foundIn": "glean-docs:bitbucket",
+    "bytes": 2139,
+    "sha256": "eb7e14c39a23b78e701da349086cb02cadda9e913d36cf3da402182e93877fbe"
+  },
+  {
+    "key": "bitbucket2",
+    "filename": "bitbucket2.svg",
+    "path": "/logos/library/bitbucket2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/bitbucket2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 714,
+    "sha256": "95bcd09a83d3e13ae4c2d43541970ac51d754b8d9a0cac540cc34c23b34a11da"
+  },
+  {
+    "key": "blend",
+    "filename": "blend.svg",
+    "path": "/logos/library/blend.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/blend.svg",
+    "foundIn": "glean-docs:blend",
+    "bytes": 6790,
+    "sha256": "4c50dd56b05ebf5c523f5968b96f44eba13ff06bc0c516b785191829138cac8a"
+  },
+  {
+    "key": "box",
+    "filename": "box.svg",
+    "path": "/logos/library/box.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/box.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 796,
+    "sha256": "18c830a6b4acf607e13446cc15096e1ed4b2852d22e2db51e6ac007386d87e68"
+  },
+  {
+    "key": "brightspot",
+    "filename": "brightspot.svg",
+    "path": "/logos/library/brightspot.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/brightspot.svg",
+    "foundIn": "datasources.ts;glean-docs:brightspot",
+    "bytes": 986,
+    "sha256": "be818ec1d91b3d14684c488ba694b4f8eef5c2f0845a036f0a04ab676b1919f0"
+  },
+  {
+    "key": "bynder",
+    "filename": "bynder.svg",
+    "path": "/logos/library/bynder.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/bynder.svg",
+    "foundIn": "datasources.ts;glean-docs:bynder",
+    "bytes": 696,
+    "sha256": "5c5c8ca7def34832eef02626077f38e6c83c2e061a8a81597827d9d74d57f17d"
+  },
+  {
+    "key": "canva",
+    "filename": "canva.svg",
+    "path": "/logos/library/canva.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/canva.svg",
+    "foundIn": "datasources.ts;glean-docs:canva",
+    "bytes": 4458,
+    "sha256": "9a75504b50d4f39dd4379875bc64a2293a053b6f0180f6a179ba92667583ce19"
+  },
+  {
+    "key": "canvas",
+    "filename": "canvas.svg",
+    "path": "/logos/library/canvas.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/canvas.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1859,
+    "sha256": "e8cf569bfb4f50bc38dbe74dad8fddad284fa3ed317b0dc9903fa462c2c95937"
+  },
+  {
+    "key": "claricopilot2",
+    "filename": "claricopilot2.svg",
+    "path": "/logos/library/claricopilot2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/claricopilot2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1236,
+    "sha256": "e7e37dda6488166bd96a1b948828d082a7caeae6c3954069a527a9fe19f6789d"
+  },
+  {
+    "key": "claude",
+    "filename": "claude.svg",
+    "path": "/logos/claude.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/claude.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 2573,
+    "sha256": "cf5773253e1592e4745549b8d2e9eaff5ab35f60048ea203013c131ce9da6ece"
+  },
+  {
+    "key": "clickup",
+    "filename": "clickup.svg",
+    "path": "/logos/library/clickup.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/clickup.svg",
+    "foundIn": "datasources.ts;glean-docs:clickup",
+    "bytes": 1568,
+    "sha256": "a8b08e70df4a7d7c949a423b4f3caa04671e209617c8b73bc24cff846ae2e017"
+  },
+  {
+    "key": "clubhouse",
+    "filename": "clubhouse.svg",
+    "path": "/logos/library/clubhouse.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/clubhouse.svg",
+    "foundIn": "datasources.ts;glean-docs:clubhouse",
+    "bytes": 2501,
+    "sha256": "9f0fc6bbcc37f1c748a1f9c3155289b2407150d1d8f2ad76fb5a8bd3df384e57"
+  },
+  {
+    "key": "confluence",
+    "filename": "confluence.svg",
+    "path": "/logos/confluence.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/confluence.svg",
+    "foundIn": "glean-docs:confluence;glean-docs:confluence-onprem",
+    "bytes": 2584,
+    "sha256": "c8a28a78e703951fcc5ddd513096848548461cb1d4661bc2dda8ea2e629a1115"
+  },
+  {
+    "key": "confluence3",
+    "filename": "confluence3.svg",
+    "path": "/logos/library/confluence3.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/confluence3.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 2584,
+    "sha256": "c8a28a78e703951fcc5ddd513096848548461cb1d4661bc2dda8ea2e629a1115"
+  },
+  {
+    "key": "contentful",
+    "filename": "contentful.svg",
+    "path": "/logos/library/contentful.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/contentful.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1256,
+    "sha256": "807ee54aa9af13a8b5abcc0c9b636ebe69737abbae25f87ad32ddb51741bf82b"
+  },
+  {
+    "key": "crayon",
+    "filename": "crayon.svg",
+    "path": "/logos/library/crayon.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/crayon.svg",
+    "foundIn": "datasources.ts;glean-docs:crayon",
+    "bytes": 867,
+    "sha256": "167a76d3642caf587907f7e598aab1dbcd5770a502a04666518f5f339b292412"
+  },
+  {
+    "key": "custom-datasource",
+    "filename": "custom-datasource.svg",
+    "path": "/logos/library/custom-datasource.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/custom-datasource.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1082,
+    "sha256": "c66824c51743dbb6e7e620f42bbdddef543e51a183d3048ee2e3294ee683a44d"
+  },
+  {
+    "key": "custom",
+    "filename": "custom.svg",
+    "path": "/logos/library/custom.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/custom.svg",
+    "foundIn": "glean-docs:custom",
+    "bytes": 744,
+    "sha256": "7732462d407a37616f7290eafc8f020fc2c4eca501549c64e82783414dd26157"
+  },
+  {
+    "key": "customers",
+    "filename": "customers.svg",
+    "path": "/logos/library/customers.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/customers.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 3426,
+    "sha256": "d0c7e063a79945d62bd12e30fa21002e1f1178044493a9740d3fa296b09aec83"
+  },
+  {
+    "key": "databricks",
+    "filename": "databricks.svg",
+    "path": "/logos/databricks.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/databricks.svg",
+    "foundIn": "glean-docs:databricks",
+    "bytes": 5950,
+    "sha256": "17145fbd7b93ab11fcf66c5aa3843680542e43e6690823ea5e2b3ba1633ce705"
+  },
+  {
+    "key": "databricks2",
+    "filename": "databricks2.svg",
+    "path": "/logos/library/databricks2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/databricks2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 856,
+    "sha256": "ea61c55b8e8177f88af635b92a906f7042499511d0885cd418bf850c11663d4a"
+  },
+  {
+    "key": "datadog",
+    "filename": "datadog.svg",
+    "path": "/logos/library/datadog.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/datadog.svg",
+    "foundIn": "datasources.ts;glean-docs:datadog",
+    "bytes": 3533,
+    "sha256": "99191a8f561c522527d45dca8b7094802ce70891cbc5d4a34f56c883301fb934"
+  },
+  {
+    "key": "discord",
+    "filename": "discord.svg",
+    "path": "/logos/library/discord.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/discord.svg",
+    "foundIn": "datasources.ts;glean-docs:discord",
+    "bytes": 1957,
+    "sha256": "987daad22a6f579cc9cb3cfce4edc8942ba732f83a6882f743f440f429086b16"
+  },
+  {
+    "key": "docebo",
+    "filename": "docebo.svg",
+    "path": "/logos/library/docebo.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/docebo.svg",
+    "foundIn": "datasources.ts;glean-docs:docebo",
+    "bytes": 594,
+    "sha256": "2ee930405a63908533b3197af196e3a6fea1c2856063b96a8c234aba92866994"
+  },
+  {
+    "key": "docusign",
+    "filename": "docusign.svg",
+    "path": "/logos/library/docusign.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/docusign.svg",
+    "foundIn": "datasources.ts;glean-docs:docusign",
+    "bytes": 497,
+    "sha256": "7ce2022186317b3813090a8df7cdd9564b86ad0ada200d10d89f8d32593fc57e"
+  },
+  {
+    "key": "dropbox2",
+    "filename": "dropbox2.svg",
+    "path": "/logos/library/dropbox2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/dropbox2.svg",
+    "foundIn": "datasources.ts;glean-docs:dropbox",
+    "bytes": 675,
+    "sha256": "a8f6088a85ff972805478779cdc9a7acc255a896383e9e7d6ee75451cec6c583"
+  },
+  {
+    "key": "dynamics365",
+    "filename": "dynamics365.svg",
+    "path": "/logos/library/dynamics365.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/dynamics365.svg",
+    "foundIn": "datasources.ts;glean-docs:microsoft-dynamics-365-connector",
+    "bytes": 3197,
+    "sha256": "49b5b6959909a09af2091574658dbf6276af1c04b95846b1aadf3e8389ddb20e"
+  },
+  {
+    "key": "egnyte",
+    "filename": "egnyte.svg",
+    "path": "/logos/library/egnyte.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/egnyte.svg",
+    "foundIn": "datasources.ts;glean-docs:egnyte",
+    "bytes": 2051,
+    "sha256": "f05f07ce68c3b93d425723fef08a884ab1125a96b4f1a048cc31330c5141c372"
+  },
+  {
+    "key": "evernote",
+    "filename": "evernote.svg",
+    "path": "/logos/library/evernote.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/evernote.svg",
+    "foundIn": "datasources.ts;glean-docs:evernote",
+    "bytes": 1900,
+    "sha256": "6693703c1afb1f924701556fc71ef3ea6c409d1080c49f92f18722bca53777f1"
+  },
+  {
+    "key": "fathom",
+    "filename": "fathom.svg",
+    "path": "/logos/library/fathom.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/fathom.svg",
+    "foundIn": "datasources.ts;glean-docs:fathom",
+    "bytes": 907,
+    "sha256": "86b5dc8a10abae886d3a348897ba0bee271f9bd12da08a371a6583e384f0733d"
+  },
+  {
+    "key": "fellow",
+    "filename": "fellow.svg",
+    "path": "/logos/library/fellow.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/fellow.svg",
+    "foundIn": "glean-docs:fellow",
+    "bytes": 1175,
+    "sha256": "2f8dd18df0b66760726539be3d23244bb553266b37cc1d630e37574a00cb4a3d"
+  },
+  {
+    "key": "fifteenfive2",
+    "filename": "fifteenfive2.svg",
+    "path": "/logos/library/fifteenfive2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/fifteenfive2.svg",
+    "foundIn": "datasources.ts;glean-docs:15five",
+    "bytes": 1734,
+    "sha256": "b38081781c3f279506022d25da2996f0cfcf096e3d2c19b308cca0eafe25b6d9"
+  },
+  {
+    "key": "figma",
+    "filename": "figma.svg",
+    "path": "/logos/library/figma.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/figma.svg",
+    "foundIn": "datasources.ts;glean-docs:figma",
+    "bytes": 780,
+    "sha256": "33d4e398b82a8a742fd566517735cddfd400465e8c9b7e0d16781e32fb6831df"
+  },
+  {
+    "key": "freshdesk",
+    "filename": "freshdesk.svg",
+    "path": "/logos/library/freshdesk.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/freshdesk.svg",
+    "foundIn": "datasources.ts;glean-docs:freshdesk",
+    "bytes": 640,
+    "sha256": "22b771669b28d05c3121a3d3a79fd1771a87948f716ba7c3cd7e6dde1735a25d"
+  },
+  {
+    "key": "freshservice",
+    "filename": "freshservice.svg",
+    "path": "/logos/library/freshservice.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/freshservice.svg",
+    "foundIn": "datasources.ts;glean-docs:freshservice",
+    "bytes": 532,
+    "sha256": "afd2221fd0c56fa54a8db755de4ae87ee20dd5c0d512941157b87459c022d141"
+  },
+  {
+    "key": "gainsight",
+    "filename": "gainsight.svg",
+    "path": "/logos/gainsight.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/gainsight.svg",
+    "foundIn": "datasources.ts;glean-docs:gainsight",
+    "bytes": 1231,
+    "sha256": "d8ed1c7f526b90f3de7baafb8b02e7a53e596cec7e7d230c3a1bd59016da00fb"
+  },
+  {
+    "key": "gcal",
+    "filename": "gcal.png",
+    "path": "/logos/library/gcal.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gcal.png",
+    "foundIn": "glean-docs:gcal",
+    "bytes": 1841,
+    "sha256": "bfd18c92ac4a5f1928c09b38da839dbdf5788e98468579c5b1c7ceb1a4288fdd"
+  },
+  {
+    "key": "gcal3",
+    "filename": "gcal3.svg",
+    "path": "/logos/library/gcal3.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gcal3.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 3331,
+    "sha256": "58ef860565d13a08b16f2e26a3ec3730ce25d53d915f1cc8eb48c79020c6b84d"
+  },
+  {
+    "key": "gcs",
+    "filename": "gcs.svg",
+    "path": "/logos/library/gcs.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gcs.svg",
+    "foundIn": "datasources.ts;glean-docs:gcs",
+    "bytes": 1762,
+    "sha256": "8a5526418a37cc9c997d4b7eaf0952f70573792bcbb255bb5291ae2fee136992"
+  },
+  {
+    "key": "gdrive",
+    "filename": "gdrive.svg",
+    "path": "/logos/gdrive.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/gdrive.svg",
+    "foundIn": "glean-docs:gdrive",
+    "bytes": 769,
+    "sha256": "b4cf2cc6b35459752d20700c7236becc1c143648528ed4545b085cd6969ab97a"
+  },
+  {
+    "key": "gdrive4",
+    "filename": "gdrive4.svg",
+    "path": "/logos/library/gdrive4.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gdrive4.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1294,
+    "sha256": "aa75924aa7274666109e642a8e9b927741b4f544b99ed2cebbb1bbe80ee422cc"
+  },
+  {
+    "key": "gitforge",
+    "filename": "gitforge.svg",
+    "path": "/logos/library/gitforge.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gitforge.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 877,
+    "sha256": "0177ec214b6e53d53ab6db83ee0045b421f7af2035ba5bde7bf2b30716e997f3"
+  },
+  {
+    "key": "github-dark",
+    "filename": "github-dark.svg",
+    "path": "/logos/library/github-dark.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/github-dark.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 999,
+    "sha256": "7b342fcbaf0a2926990653e35dfd43d1ecfea91faacc1a371d7de2dfb5263129"
+  },
+  {
+    "key": "github",
+    "filename": "github.svg",
+    "path": "/logos/library/github.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/github.svg",
+    "foundIn": "datasources.ts;glean-docs:github;glean-docs:github-enterprise-server",
+    "bytes": 1001,
+    "sha256": "80afb4e4534a90871057e5a12e68c0400487415a39655caf1dea54595464fa65"
+  },
+  {
+    "key": "gitlab_v2",
+    "filename": "gitlab_v2.svg",
+    "path": "/logos/library/gitlab_v2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gitlab_v2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1131,
+    "sha256": "fb02566387ec4252b9168295934391f5d3b47d855af66a3418a2bdd810eee1a4"
+  },
+  {
+    "key": "gitlab",
+    "filename": "gitlab.svg",
+    "path": "/logos/library/gitlab.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gitlab.svg",
+    "foundIn": "glean-docs:gitlab;glean-docs:gitlab-onprem",
+    "bytes": 1611,
+    "sha256": "3783854e54a5068c041f5a96cfc5c7b45cf9a9666ea1c400871a6fb369e18abf"
+  },
+  {
+    "key": "glossary",
+    "filename": "glossary.svg",
+    "path": "/logos/library/glossary.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/glossary.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 816,
+    "sha256": "73812cd16eace43d54a125dc62207aaa4a6304f6f139ff596acdf43cf2d07541"
+  },
+  {
+    "key": "gmail",
+    "filename": "gmail.png",
+    "path": "/logos/library/gmail.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gmail.png",
+    "foundIn": "glean-docs:gmail;glean-docs:gmail-federated",
+    "bytes": 2101,
+    "sha256": "d6c0bc293cb59949b4a2bcb093212b4a5b283ba007154dddf108fe926a3be315"
+  },
+  {
+    "key": "gmail4",
+    "filename": "gmail4.svg",
+    "path": "/logos/library/gmail4.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gmail4.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1299,
+    "sha256": "18f42e2c6f8033831d297cbd7a35dcec0ddd4b3a3d7a00044e4a91b4db4c22d7"
+  },
+  {
+    "key": "golinks",
+    "filename": "golinks.svg",
+    "path": "/logos/library/golinks.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/golinks.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 24466,
+    "sha256": "f2c2e8e4ed94c9f440640345bc741da924daf7e3e11b4194963e90a416d48252"
+  },
+  {
+    "key": "gomjabbar",
+    "filename": "gomjabbar.png",
+    "path": "/logos/library/gomjabbar.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gomjabbar.png",
+    "foundIn": "datasources.ts",
+    "bytes": 369476,
+    "sha256": "00403d0343f8edee8cb441949502aacd644d8ae829a6f233f9aaddd66a73c1e5"
+  },
+  {
+    "key": "gong",
+    "filename": "gong.svg",
+    "path": "/logos/gong.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/gong.svg",
+    "foundIn": "datasources.ts;glean-docs:gong",
+    "bytes": 2148,
+    "sha256": "2cc430fd6ff4f019da98b9fdb404c0d0f21f7cf86f33a961fcb5f7826cc82cfb"
+  },
+  {
+    "key": "google-cloud",
+    "filename": "google-cloud.svg",
+    "path": "/logos/library/google-cloud.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/google-cloud.svg",
+    "foundIn": "glean-docs:gcloud",
+    "bytes": 1714,
+    "sha256": "920b375567f088e67bb93a9957b040de9ec6e78d5e16286c356ff6fe49e5c41e"
+  },
+  {
+    "key": "google-sheet2",
+    "filename": "google-sheet2.svg",
+    "path": "/logos/library/google-sheet2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/google-sheet2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1477,
+    "sha256": "dec60c57a097caf518ff5cd4d9feca5ccda17020df015cf9ae7d25abb766d702"
+  },
+  {
+    "key": "google-slides2",
+    "filename": "google-slides2.svg",
+    "path": "/logos/library/google-slides2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/google-slides2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 2623,
+    "sha256": "6e6900dc764437107b41cf4b6899231f9e6fa0bc9ac3b4abc8f3c5db1d257bec"
+  },
+  {
+    "key": "google",
+    "filename": "google.svg",
+    "path": "/logos/library/google.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/google.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1037,
+    "sha256": "c4e90cb10ca7c341dfdea1f3ed9b5698b9ea14087be4533d385ac7c4d58d750e"
+  },
+  {
+    "key": "googlechat",
+    "filename": "GoogleChat.png",
+    "path": "/logos/library/GoogleChat.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/GoogleChat.png",
+    "foundIn": "glean-docs:gchat",
+    "bytes": 36275,
+    "sha256": "be14605a8e194504a496949d187b062f16c1fb66000a2a7f3eccded48138d038"
+  },
+  {
+    "key": "googlechat2",
+    "filename": "GoogleChat2.svg",
+    "path": "/logos/library/GoogleChat2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/GoogleChat2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1247,
+    "sha256": "03409308afca0edb2abac41b29f38b15777d577178a46534998d6a45fa0baac7"
+  },
+  {
+    "key": "googlegroups",
+    "filename": "googlegroups.svg",
+    "path": "/logos/library/googlegroups.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/googlegroups.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 698,
+    "sha256": "5440ae5b03f6cfd835992f7ff04e9b23c35494c64c99f9133455b432eab4fa51"
+  },
+  {
+    "key": "googlenews",
+    "filename": "googlenews.svg",
+    "path": "/logos/library/googlenews.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/googlenews.svg",
+    "foundIn": "glean-docs:gnews",
+    "bytes": 4491,
+    "sha256": "52fd4ec41909431ae69548ace67dbf68d099a9f422408451476c679df3ca85d2"
+  },
+  {
+    "key": "googlesites2",
+    "filename": "googlesites2.svg",
+    "path": "/logos/library/googlesites2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/googlesites2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1821,
+    "sha256": "2409dfb146dbf37809da6082c53a7aaf343158817065cb94ef9c67b4d813ef01"
+  },
+  {
+    "key": "googletasks",
+    "filename": "googletasks.svg",
+    "path": "/logos/library/googletasks.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/googletasks.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 824,
+    "sha256": "0a984669b0d9c413fb1f53231074930b7586c212a4d7e7d534459f013549ef52"
+  },
+  {
+    "key": "granola-dark",
+    "filename": "granola-dark.svg",
+    "path": "/logos/library/granola-dark.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/granola-dark.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 5150,
+    "sha256": "135a0b52295c721a824e6249e35a1e643db0b4d4cbc3f1a8186021261eb65bf4"
+  },
+  {
+    "key": "granola",
+    "filename": "granola.svg",
+    "path": "/logos/library/granola.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/granola.svg",
+    "foundIn": "datasources.ts;glean-docs:granola",
+    "bytes": 5075,
+    "sha256": "82826bd3a435a4c244b8e2e04f114bc30aab9117df704e48abb56f9060128fe4"
+  },
+  {
+    "key": "greenhouse",
+    "filename": "greenhouse.svg",
+    "path": "/logos/library/greenhouse.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/greenhouse.svg",
+    "foundIn": "datasources.ts;glean-docs:greenhouse",
+    "bytes": 1120,
+    "sha256": "a5866c37186fcf00b18c095703e2fd3b469a79f59fa1199b8d1f63b425530590"
+  },
+  {
+    "key": "gsites",
+    "filename": "gsites.svg",
+    "path": "/logos/library/gsites.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/gsites.svg",
+    "foundIn": "glean-docs:gsites",
+    "bytes": 4190,
+    "sha256": "2c03989c1c8632bd396eefed0fdd1124e2075580fb13cf99da0ae57ac7a23874"
+  },
+  {
+    "key": "guru",
+    "filename": "guru.svg",
+    "path": "/logos/library/guru.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/guru.svg",
+    "foundIn": "datasources.ts;glean-docs:guru",
+    "bytes": 1384,
+    "sha256": "5ac4b87410f1dcd1ed9a241ce53287d74ba322bf3f2dd7bb8faab44185ed4bf5"
+  },
+  {
+    "key": "highspot",
+    "filename": "highspot.svg",
+    "path": "/logos/library/highspot.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/highspot.svg",
+    "foundIn": "datasources.ts;glean-docs:highspot",
+    "bytes": 808,
+    "sha256": "09d9d8b780e722f7455a87d87c5ed6866b159090cef856d00b83a1db55dbc42c"
+  },
+  {
+    "key": "hubspot",
+    "filename": "hubspot.svg",
+    "path": "/logos/library/hubspot.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/hubspot.svg",
+    "foundIn": "datasources.ts;glean-docs:hubspot",
+    "bytes": 1276,
+    "sha256": "2e6e65e65cdf04250b3cfc348a3b3d441542af0013071ac5a9051a97a4d726bd"
+  },
+  {
+    "key": "icloudcalendar",
+    "filename": "icloudcalendar.svg",
+    "path": "/logos/library/icloudcalendar.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/icloudcalendar.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 432,
+    "sha256": "796e73be25341d71abf846bef11a01a7616b4e1a85261135bd1ba96da93b4288"
+  },
+  {
+    "key": "icloudmail",
+    "filename": "icloudmail.svg",
+    "path": "/logos/library/icloudmail.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/icloudmail.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 405,
+    "sha256": "f5855550f498b01bfe2d16934b49b6d902b5a83af1c7b470682cba7cf682c68c"
+  },
+  {
+    "key": "instagram",
+    "filename": "instagram.svg",
+    "path": "/logos/library/instagram.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/instagram.svg",
+    "foundIn": "glean-docs:instagram",
+    "bytes": 4366,
+    "sha256": "d7d0ca8e72876d26a7cde600ee882c3abe9b60e509f9e09bf70fc94bbee6dab3"
+  },
+  {
+    "key": "intercom",
+    "filename": "intercom.svg",
+    "path": "/logos/library/intercom.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/intercom.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 2915,
+    "sha256": "e8ea542443650ca4a0e850e812f8590a8d104a5c0c4d0ff4428419283584d2e6"
+  },
+  {
+    "key": "invision",
+    "filename": "invision.svg",
+    "path": "/logos/library/invision.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/invision.svg",
+    "foundIn": "datasources.ts;glean-docs:invision",
+    "bytes": 1241,
+    "sha256": "b724a69fcd10f9d8069d075ebc8405f401408e2e0cbfd2e0220824d5278cdabd"
+  },
+  {
+    "key": "ironclad",
+    "filename": "ironclad.svg",
+    "path": "/logos/library/ironclad.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/ironclad.svg",
+    "foundIn": "datasources.ts;glean-docs:ironclad",
+    "bytes": 2883,
+    "sha256": "b46a3b2321197020ea045cad954cfdf5da9e957532858c1c8e843080fdf1d429"
+  },
+  {
+    "key": "jenkins",
+    "filename": "jenkins.svg",
+    "path": "/logos/library/jenkins.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/jenkins.svg",
+    "foundIn": "datasources.ts;glean-docs:jenkins",
+    "bytes": 26195,
+    "sha256": "850ea36d2cbd75c4e2dc0e1291399219af01839ad5fdd3de71bd43dc2ccfb5b7"
+  },
+  {
+    "key": "jfrog",
+    "filename": "jfrog.svg",
+    "path": "/logos/library/jfrog.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/jfrog.svg",
+    "foundIn": "datasources.ts;glean-docs:jfrog",
+    "bytes": 3976,
+    "sha256": "15ac2fde6d9c63d537cba29ac9f78dbdc7f174471677051eddc5cf925e1ae47b"
+  },
+  {
+    "key": "jira",
+    "filename": "jira.svg",
+    "path": "/logos/jira.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/jira.svg",
+    "foundIn": "glean-docs:jira;glean-docs:jira-onprem",
+    "bytes": 914,
+    "sha256": "9bb965102852a17df594bea1fa4c2e39881c1f3f1ffa58df2dabf2bbd1bdcbfb"
+  },
+  {
+    "key": "jira3",
+    "filename": "jira3.svg",
+    "path": "/logos/library/jira3.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/jira3.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 914,
+    "sha256": "9bb965102852a17df594bea1fa4c2e39881c1f3f1ffa58df2dabf2bbd1bdcbfb"
+  },
+  {
+    "key": "klue",
+    "filename": "klue.svg",
+    "path": "/logos/library/klue.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/klue.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 274,
+    "sha256": "d33dbea0038c0e2e055e5eb6513a0d90d0091db3e8c227f930bd9f12f3ed7fe3"
+  },
+  {
+    "key": "lattice",
+    "filename": "lattice.png",
+    "path": "/logos/library/lattice.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lattice.png",
+    "foundIn": "datasources.ts;glean-docs:lattice",
+    "bytes": 8372,
+    "sha256": "4138eda30a7be9db9f0e2305e0a661ffe967ddec6d26b59f2dde833d19227696"
+  },
+  {
+    "key": "lessonly",
+    "filename": "lessonly.png",
+    "path": "/logos/library/lessonly.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lessonly.png",
+    "foundIn": "datasources.ts;glean-docs:lessonly",
+    "bytes": 1954,
+    "sha256": "744b9425e3ce91c4c0c769294566829b5e38814a06886b783bbb248a9c5a293f"
+  },
+  {
+    "key": "lever",
+    "filename": "lever.png",
+    "path": "/logos/library/lever.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lever.png",
+    "foundIn": "datasources.ts",
+    "bytes": 1111,
+    "sha256": "007428cc815d190fd74b946096642e27a0ec4b7fe0402f103f2d285874d692cb"
+  },
+  {
+    "key": "linear",
+    "filename": "linear.svg",
+    "path": "/logos/library/linear.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/linear.svg",
+    "foundIn": "datasources.ts;glean-docs:linear",
+    "bytes": 1032,
+    "sha256": "f1ce552aaa47987e695b30b5d3e85d824004b86ffa17e5606daf2c093e707082"
+  },
+  {
+    "key": "linkedin2",
+    "filename": "linkedin2.svg",
+    "path": "/logos/library/linkedin2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/linkedin2.svg",
+    "foundIn": "glean-docs:linkedin",
+    "bytes": 1427,
+    "sha256": "e02d38698a2baf60c2347e1dd48d68ac739cf4aaf048e4bc1775974a4e176a83"
+  },
+  {
+    "key": "looker",
+    "filename": "looker.svg",
+    "path": "/logos/library/looker.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/looker.svg",
+    "foundIn": "datasources.ts;glean-docs:looker",
+    "bytes": 1900,
+    "sha256": "994a26639ec8102e1ef48d0a5007e5d00c4939da201087594de29fdd14e2bbc4"
+  },
+  {
+    "key": "lookerstudio",
+    "filename": "lookerstudio.svg",
+    "path": "/logos/library/lookerstudio.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lookerstudio.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1814,
+    "sha256": "355995015d94f26eff134f7c53a942f1b6d2837a805bea8b8691f3b6620b6ecf"
+  },
+  {
+    "key": "loopio",
+    "filename": "loopio.png",
+    "path": "/logos/library/loopio.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/loopio.png",
+    "foundIn": "datasources.ts;glean-docs:loopio",
+    "bytes": 4782,
+    "sha256": "77cc2583352430d9f59937a231797b7588396d3c8035fcb6cddfa96be86543e2"
+  },
+  {
+    "key": "lucid",
+    "filename": "lucid.svg",
+    "path": "/logos/library/lucid.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lucid.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 276,
+    "sha256": "7ca12098b0e0abd6a1935c1b0cd417e196c89004b5f17f1cd345f40a7d2016b0"
+  },
+  {
+    "key": "lucidchart",
+    "filename": "lucidchart.svg",
+    "path": "/logos/library/lucidchart.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lucidchart.svg",
+    "foundIn": "glean-docs:lucidchart",
+    "bytes": 211,
+    "sha256": "75411ee8dc3057b4d169f02618b90df5f865d5d3ffd4e70c35c8cc07210b7508"
+  },
+  {
+    "key": "lucidspark",
+    "filename": "lucidspark.svg",
+    "path": "/logos/library/lucidspark.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lucidspark.svg",
+    "foundIn": "glean-docs:lucidspark",
+    "bytes": 227,
+    "sha256": "fe1ad6588c8dbfa8959f229df5381126af1eac50f5f0f930de965052078cabde"
+  },
+  {
+    "key": "lumapps",
+    "filename": "lumapps.svg",
+    "path": "/logos/library/lumapps.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/lumapps.svg",
+    "foundIn": "datasources.ts;glean-docs:lumapps",
+    "bytes": 1369,
+    "sha256": "7b7ca82c4243e5200d69929d0c6283a3a0682f31a6c7fee6816a7d142ac5a718"
+  },
+  {
+    "key": "marketo",
+    "filename": "marketo.svg",
+    "path": "/logos/library/marketo.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/marketo.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 6187,
+    "sha256": "bb95f9719489508fa29e556c8d4ef45b129607974d91e915b60e0fbfd5027673"
+  },
+  {
+    "key": "metabase",
+    "filename": "metabase.svg",
+    "path": "/logos/library/metabase.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/metabase.svg",
+    "foundIn": "glean-docs:metabase",
+    "bytes": 3441,
+    "sha256": "a27082a448e0d293d9ffbe4960be56d27094db7aa21614894c5786624ad690f5"
+  },
+  {
+    "key": "microsoft365_new",
+    "filename": "microsoft365_new.svg",
+    "path": "/logos/library/microsoft365_new.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/microsoft365_new.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 6417,
+    "sha256": "b7383a9559a40f7b20a8c7e18930b264db385f2a4aa6c5e53be76ee51314cb37"
+  },
+  {
+    "key": "microsoft365",
+    "filename": "microsoft365.svg",
+    "path": "/logos/microsoft365.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/microsoft365.svg",
+    "foundIn": "glean-docs:microsoft365",
+    "bytes": 411,
+    "sha256": "0a248f4fce111063277e6da434f7ee33fb3bbfce349e6fd8329ce5357e1333e5"
+  },
+  {
+    "key": "miro",
+    "filename": "miro.svg",
+    "path": "/logos/library/miro.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/miro.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 347,
+    "sha256": "368e333830969931b98f8a62a0fb8a2f1dda57155cb13d89767a30be89678761"
+  },
+  {
+    "key": "monday",
+    "filename": "monday.svg",
+    "path": "/logos/library/monday.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/monday.svg",
+    "foundIn": "datasources.ts;glean-docs:monday",
+    "bytes": 1338,
+    "sha256": "f1c3139e8af87a166afcd7009b3d66ea6e155294d0cd61883abf6124b347cb39"
+  },
+  {
+    "key": "netsuite",
+    "filename": "netsuite.svg",
+    "path": "/logos/library/netsuite.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/netsuite.svg",
+    "foundIn": "datasources.ts;glean-docs:netsuite",
+    "bytes": 333,
+    "sha256": "5c262e489229aa32827c0b7a1f63cbb066d6cc291abbdb43fa3aea25d7391aef"
+  },
+  {
+    "key": "notion",
+    "filename": "notion.svg",
+    "path": "/logos/library/notion.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/notion.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 15678,
+    "sha256": "eb3a9c072dbd90a7b57023d87f582ac4b13b9f320b0bfd64d91afc87f4cac6a6"
+  },
+  {
+    "key": "office",
+    "filename": "office.svg",
+    "path": "/logos/library/office.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/office.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 8378,
+    "sha256": "feea6cc02974cc6d3997a4012c49042bbe933f554d7db85007ba31aa50a164de"
+  },
+  {
+    "key": "okta-3",
+    "filename": "okta-3.svg",
+    "path": "/logos/library/okta-3.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/okta-3.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 218,
+    "sha256": "2c683d1a4a9d02d01f4facf2d940e823b98577aa0ac639037798ba86d2446305"
+  },
+  {
+    "key": "okta-saml",
+    "filename": "okta-saml.svg",
+    "path": "/logos/library/okta-saml.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/okta-saml.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 218,
+    "sha256": "2c683d1a4a9d02d01f4facf2d940e823b98577aa0ac639037798ba86d2446305"
+  },
+  {
+    "key": "okta-scim",
+    "filename": "okta-scim.svg",
+    "path": "/logos/library/okta-scim.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/okta-scim.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 218,
+    "sha256": "2c683d1a4a9d02d01f4facf2d940e823b98577aa0ac639037798ba86d2446305"
+  },
+  {
+    "key": "okta",
+    "filename": "okta.svg",
+    "path": "/logos/library/okta.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/okta.svg",
+    "foundIn": "glean-docs:okta",
+    "bytes": 1890,
+    "sha256": "608bbe06cae29f71622e5ffd5f0435150e0887c82e0cd8511f34be45818ce6fa"
+  },
+  {
+    "key": "onedrive",
+    "filename": "onedrive.svg",
+    "path": "/logos/onedrive.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/onedrive.svg",
+    "foundIn": "datasources.ts;glean-docs:onedrive",
+    "bytes": 835,
+    "sha256": "3af26604734e72402bbfaf1549a1f39ac7e213eb481cee0fc758b4fc60d3e4d0"
+  },
+  {
+    "key": "onelogin",
+    "filename": "onelogin.svg",
+    "path": "/logos/library/onelogin.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/onelogin.svg",
+    "foundIn": "datasources.ts;glean-docs:onelogin",
+    "bytes": 574,
+    "sha256": "1aa2f9c86168dfea2c974a13ddc1f9b765ad04c2d95654638c3537830a587d8f"
+  },
+  {
+    "key": "openai",
+    "filename": "openai.svg",
+    "path": "/logos/openai.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/openai.svg",
+    "foundIn": "glean-docs:openai",
+    "bytes": 1735,
+    "sha256": "a2653cd27f20a4e764edf51b740f90e46a86aaf0819b60a23027e505bd100740"
+  },
+  {
+    "key": "opsgenie",
+    "filename": "opsgenie.svg",
+    "path": "/logos/library/opsgenie.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/opsgenie.svg",
+    "foundIn": "datasources.ts;glean-docs:opsgenie",
+    "bytes": 1978,
+    "sha256": "34a6bf5e1967786b9f84d8f5dc6550fc66764215845f57afe35349b2d2ed1eef"
+  },
+  {
+    "key": "otterai",
+    "filename": "otterai.svg",
+    "path": "/logos/library/otterai.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/otterai.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1594,
+    "sha256": "f06b373111fb67a068c6acc03c6671e962234578f21eaafc89f414bcabfe0e8e"
+  },
+  {
+    "key": "outlook",
+    "filename": "outlook.svg",
+    "path": "/logos/outlook.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/outlook.svg",
+    "foundIn": "datasources.ts;glean-docs:outlook",
+    "bytes": 6577,
+    "sha256": "630369a1f50247dfa732f2910bfd2e7d2290cff4ead6777c395af115b289484b"
+  },
+  {
+    "key": "outreach",
+    "filename": "outreach.png",
+    "path": "/logos/library/outreach.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/outreach.png",
+    "foundIn": "glean-docs:outreach",
+    "bytes": 2806,
+    "sha256": "d2269f2c2230791ff9af74deac0921b504ef0b2540c61a0ab0d3c47ffcb7c0f1"
+  },
+  {
+    "key": "pagerduty",
+    "filename": "pagerduty.svg",
+    "path": "/logos/library/pagerduty.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/pagerduty.svg",
+    "foundIn": "datasources.ts;glean-docs:pagerduty",
+    "bytes": 1150,
+    "sha256": "764889ef7326a49ddfa53eb6168fc369f7ad55a1ee175511f6663bb0424f6c93"
+  },
+  {
+    "key": "panopto",
+    "filename": "panopto.svg",
+    "path": "/logos/library/panopto.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/panopto.svg",
+    "foundIn": "datasources.ts;glean-docs:panopto",
+    "bytes": 2057,
+    "sha256": "925536345bb3e7d0cb1763db24d46ed179dc07f70b6f98adebc2e886d4586349"
+  },
+  {
+    "key": "phabricator",
+    "filename": "phabricator.svg",
+    "path": "/logos/library/phabricator.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/phabricator.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1850,
+    "sha256": "9495ccfda4961fbdc7ac0477c957f7ccdf7a1e9463a1eaa057345669f85cee06"
+  },
+  {
+    "key": "pingboard",
+    "filename": "pingboard.svg",
+    "path": "/logos/library/pingboard.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/pingboard.svg",
+    "foundIn": "datasources.ts;glean-docs:pingboard",
+    "bytes": 695,
+    "sha256": "b443dd97db0222e78f3eebb15781ce5104cfe220f970f436b6e593b0a6b1e261"
+  },
+  {
+    "key": "powerbi",
+    "filename": "powerbi.svg",
+    "path": "/logos/powerbi.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/powerbi.svg",
+    "foundIn": "datasources.ts;glean-docs:powerbi",
+    "bytes": 1018,
+    "sha256": "73ecb254df07664d2972f406304e04364a6d4f3cb6580a16a5e7d64d05214dd8"
+  },
+  {
+    "key": "procore",
+    "filename": "procore.svg",
+    "path": "/logos/library/procore.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/procore.svg",
+    "foundIn": "datasources.ts;glean-docs:procore",
+    "bytes": 722,
+    "sha256": "c1b1b5cdef4bbc53e60e377ee5268d8d5479d00535e09a1a322f1b3616106e88"
+  },
+  {
+    "key": "productboard2",
+    "filename": "productboard2.svg",
+    "path": "/logos/library/productboard2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/productboard2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 353,
+    "sha256": "7e7fb57d2e021d4af913dd009f69218fd68d037e1f4c6ee252b703f96025ec49"
+  },
+  {
+    "key": "publicgithub",
+    "filename": "publicgithub.svg",
+    "path": "/logos/library/publicgithub.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/publicgithub.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 2030,
+    "sha256": "8b13311ae9a4e4fe9225e7f5ccfe1e98bc34db3840a2c98a9cff5d841912fccf"
+  },
+  {
+    "key": "publicjira",
+    "filename": "publicjira.svg",
+    "path": "/logos/library/publicjira.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/publicjira.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1725,
+    "sha256": "40f95878de7ec032d7f9ca2da1d06b3547eb9dad02bb9c77d87d7e7948a0c99f"
+  },
+  {
+    "key": "quip",
+    "filename": "quip.svg",
+    "path": "/logos/library/quip.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/quip.svg",
+    "foundIn": "datasources.ts;glean-docs:quip",
+    "bytes": 1457,
+    "sha256": "2cf846c6548058de057e08c627a61a6d8f6f609e3c26f7be893f3f355e47ebbb"
+  },
+  {
+    "key": "s3",
+    "filename": "s3.png",
+    "path": "/logos/library/s3.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/s3.png",
+    "foundIn": "datasources.ts;glean-docs:s3",
+    "bytes": 7252,
+    "sha256": "a658e2aef4087a6a9f93393b881018d6c948446289e74f68e3adbeced3ae0d3e"
+  },
+  {
+    "key": "salescloud",
+    "filename": "salescloud.svg",
+    "path": "/logos/library/salescloud.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/salescloud.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1934,
+    "sha256": "662cf2035e021a0eecfa13b1a7d179b62a94a8f496785987235a3cbedccc6b28"
+  },
+  {
+    "key": "salesforce",
+    "filename": "salesforce.svg",
+    "path": "/logos/salesforce.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/salesforce.svg",
+    "foundIn": "glean-docs:salesforce",
+    "bytes": 666,
+    "sha256": "d2290efce5b5f37cc8c0bb9c972075f8f9b651397c45d943a6682885bbbd93d6"
+  },
+  {
+    "key": "salesforce2",
+    "filename": "salesforce2.svg",
+    "path": "/logos/library/salesforce2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/salesforce2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 666,
+    "sha256": "d2290efce5b5f37cc8c0bb9c972075f8f9b651397c45d943a6682885bbbd93d6"
+  },
+  {
+    "key": "salesloft",
+    "filename": "salesloft.svg",
+    "path": "/logos/library/salesloft.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/salesloft.svg",
+    "foundIn": "datasources.ts;glean-docs:salesloft",
+    "bytes": 943,
+    "sha256": "c18b25ea415cef88420f74d0a96b9ecb4fad16e82d6135d99da6a2184c0307eb"
+  },
+  {
+    "key": "seismic",
+    "filename": "seismic.svg",
+    "path": "/logos/library/seismic.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/seismic.svg",
+    "foundIn": "datasources.ts;glean-docs:seismic",
+    "bytes": 546,
+    "sha256": "0fe5fb888b203fab0d2173ee6a36b9f4646900c70dcfef4a275df675014abf43"
+  },
+  {
+    "key": "servicecloud",
+    "filename": "servicecloud.svg",
+    "path": "/logos/library/servicecloud.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/servicecloud.svg",
+    "foundIn": "datasources.ts;glean-docs:servicecloud",
+    "bytes": 1870,
+    "sha256": "ef4fbec72c2d213e25e4bd032cb83848f990492a9b6544083218c08f0309770e"
+  },
+  {
+    "key": "servicenow",
+    "filename": "servicenow.svg",
+    "path": "/logos/servicenow.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/servicenow.svg",
+    "foundIn": "datasources.ts;glean-docs:servicenow",
+    "bytes": 718,
+    "sha256": "160b52c2cffd67f71b7359c5966275b567498a4a6684dc75791815bac031f64e"
+  },
+  {
+    "key": "sharepoint",
+    "filename": "sharepoint.svg",
+    "path": "/logos/sharepoint.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/sharepoint.svg",
+    "foundIn": "datasources.ts;glean-docs:sharepoint;glean-docs:sharepoint-onprem",
+    "bytes": 3746,
+    "sha256": "d68e53f1dca412048570968c2a43f16a23f198581351de53474a75c27d7fbd0e"
+  },
+  {
+    "key": "shortcut",
+    "filename": "shortcut.svg",
+    "path": "/logos/library/shortcut.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/shortcut.svg",
+    "foundIn": "datasources.ts;glean-docs:shortcut",
+    "bytes": 1728,
+    "sha256": "8d75337ad8566d315faf90e775dc38f38cb8d6746293e94b415dcae75e902a6f"
+  },
+  {
+    "key": "showpad",
+    "filename": "showpad.svg",
+    "path": "/logos/library/showpad.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/showpad.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 348,
+    "sha256": "2a3a8d1f0f97925218295c8777689da291331f3d58e6aa81bfabb3e2372300df"
+  },
+  {
+    "key": "sigma",
+    "filename": "sigma.svg",
+    "path": "/logos/library/sigma.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/sigma.svg",
+    "foundIn": "glean-docs:sigma",
+    "bytes": 4094,
+    "sha256": "35d434311ffe9fd073fcea38eb35d99369ec5e51b3c3039c569cc4e4f84b4254"
+  },
+  {
+    "key": "sigma2-dark",
+    "filename": "sigma2-dark.svg",
+    "path": "/logos/library/sigma2-dark.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/sigma2-dark.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 560,
+    "sha256": "eb7f43cdbd2d84b9e14ad8417c17720901e3000a5d8be3bc3d10ddbdf2ad1a7a"
+  },
+  {
+    "key": "sigma2",
+    "filename": "sigma2.svg",
+    "path": "/logos/library/sigma2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/sigma2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 560,
+    "sha256": "b3c7f0e9dfd7a1709acc11bbb88da745b445f3ae488abcf8386285581d1908d0"
+  },
+  {
+    "key": "simpplr",
+    "filename": "simpplr.png",
+    "path": "/logos/library/simpplr.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/simpplr.png",
+    "foundIn": "datasources.ts;glean-docs:simpplr",
+    "bytes": 8819,
+    "sha256": "760bcf67bf21ff7ad9275f98e4deaf6a70a85cca59b8e572de022f1968a4a0ce"
+  },
+  {
+    "key": "simpplr2",
+    "filename": "simpplr2.svg",
+    "path": "/logos/library/simpplr2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/simpplr2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1991,
+    "sha256": "40a4c51269f60229c4f0c4e63b48d5ef10848cd4a9d91217beafa9f8b045645b"
+  },
+  {
+    "key": "slack",
+    "filename": "slack.svg",
+    "path": "/logos/library/slack.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/slack.svg",
+    "foundIn": "glean-docs:slack;glean-docs:slack-rts;glean-docs:slackentgrid",
+    "bytes": 1370,
+    "sha256": "5cbe479f48a42a4e5256539c2e5cad0808f4ed6e9f5d69c9f28e172bfaa2c949"
+  },
+  {
+    "key": "slack2",
+    "filename": "slack2.svg",
+    "path": "/logos/library/slack2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/slack2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1409,
+    "sha256": "dc3380ad5ffcd4f744c0cfd66893b74f03b787b6b7f7ccb3ef4aca65dc2d3b9f"
+  },
+  {
+    "key": "smartsheet",
+    "filename": "smartsheet.svg",
+    "path": "/logos/library/smartsheet.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/smartsheet.svg",
+    "foundIn": "datasources.ts;glean-docs:smartsheet",
+    "bytes": 507,
+    "sha256": "42aab3d25daa5dd590451ed8a7605cc8b008b23e24733718d0ba904594dfc11b"
+  },
+  {
+    "key": "spinnaker",
+    "filename": "spinnaker.svg",
+    "path": "/logos/library/spinnaker.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/spinnaker.svg",
+    "foundIn": "glean-docs:spinnaker",
+    "bytes": 1972,
+    "sha256": "53331a15cba668e97c7bc8ea3ed2d14a06cf3b6551685cf3eba7290caeced2d7"
+  },
+  {
+    "key": "stackoverflow",
+    "filename": "stackoverflow.svg",
+    "path": "/logos/library/stackoverflow.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/stackoverflow.svg",
+    "foundIn": "datasources.ts;glean-docs:stackoverflow",
+    "bytes": 412,
+    "sha256": "e8fd91203aa63985e1ecfd0b6b575edd5d0dc66e35ee97ce5de0b46eefd17f0e"
+  },
+  {
+    "key": "superhuman-docs",
+    "filename": "superhuman-docs.png",
+    "path": "/logos/library/superhuman-docs.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/superhuman-docs.png",
+    "foundIn": "datasources.ts",
+    "bytes": 3777,
+    "sha256": "f08525fc64f5b723a6a1612a9cf023f269c59567d1b37f60c986994092b4db2f"
+  },
+  {
+    "key": "tableau",
+    "filename": "tableau.svg",
+    "path": "/logos/tableau.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/tableau.svg",
+    "foundIn": "datasources.ts;glean-docs:tableau",
+    "bytes": 842,
+    "sha256": "c4d9d12a0a1a505af75ab5eac3cde2d009ce13c0a184accfcf7dbff542756c81"
+  },
+  {
+    "key": "teams",
+    "filename": "teams.svg",
+    "path": "/logos/teams.svg",
+    "location": "active set",
+    "sourceUrl": "https://app.glean.com/images/logos/teams.svg",
+    "foundIn": "datasources.ts;glean-docs:teams",
+    "bytes": 3637,
+    "sha256": "5d63eb05a85614c4da628c0d5c615b5f964924e3e11bc4578f8f3702c5a32757"
+  },
+  {
+    "key": "testrail",
+    "filename": "testrail.svg",
+    "path": "/logos/library/testrail.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/testrail.svg",
+    "foundIn": "datasources.ts;glean-docs:testrail",
+    "bytes": 1200,
+    "sha256": "ebd47b44a48a79b73bd44c38c341baaaaa8bcc4be51e5174e93ea52a92075cf4"
+  },
+  {
+    "key": "trello",
+    "filename": "trello.svg",
+    "path": "/logos/library/trello.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/trello.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 1112,
+    "sha256": "ea3103265d8af46e674376a6e9145750d770aa1c3de37d07a214eba79e1fe41f"
+  },
+  {
+    "key": "veevavault",
+    "filename": "veevavault.png",
+    "path": "/logos/library/veevavault.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/veevavault.png",
+    "foundIn": "datasources.ts;glean-docs:veeva-vault",
+    "bytes": 24236,
+    "sha256": "7e20baa6cddcc4b91927791c89b27cef29757f595edf911c9fcce0321585e225"
+  },
+  {
+    "key": "vitally",
+    "filename": "vitally.jpeg",
+    "path": "/logos/library/vitally.jpeg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/vitally.jpeg",
+    "foundIn": "datasources.ts",
+    "bytes": 3017,
+    "sha256": "da51f1570ef4b3e97ba3e0e6e976e7b8c554784ff8be2ce4710836f73fd715af"
+  },
+  {
+    "key": "web2",
+    "filename": "web2.svg",
+    "path": "/logos/library/web2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/web2.svg",
+    "foundIn": "datasources.ts;glean-docs:website",
+    "bytes": 393,
+    "sha256": "433e3fe4881211f68df040aceaaa95b49de99469bbe53b9afabc15d7e3cd3a5c"
+  },
+  {
+    "key": "webflow-icon",
+    "filename": "webflow-icon.svg",
+    "path": "/logos/library/webflow-icon.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/webflow-icon.svg",
+    "foundIn": "glean-docs:webflow",
+    "bytes": 469,
+    "sha256": "644a2103557ecd30cf294b16fe14e5d331c29c43b0a609cb052a7dd47b7452d5"
+  },
+  {
+    "key": "windchill",
+    "filename": "windchill.png",
+    "path": "/logos/library/windchill.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/windchill.png",
+    "foundIn": "datasources.ts;glean-docs:windchill",
+    "bytes": 78767,
+    "sha256": "54f65c927c488db33784a2abab0a3a7bbc0cd094326189c2e0cfe50dbbe8f60f"
+  },
+  {
+    "key": "wordpress",
+    "filename": "wordpress.svg",
+    "path": "/logos/library/wordpress.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/wordpress.svg",
+    "foundIn": "datasources.ts;glean-docs:wordpress",
+    "bytes": 1691,
+    "sha256": "104a5f5dc43256005dd8b0f5f9d7df87cbff975b82a375c93439a3d03111e210"
+  },
+  {
+    "key": "workday",
+    "filename": "workday.svg",
+    "path": "/logos/library/workday.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/workday.svg",
+    "foundIn": "datasources.ts;glean-docs:workday",
+    "bytes": 4295,
+    "sha256": "1ac48363cc153dce9b9aae2aac2d3c59e0a716235525d4c463ad19d2eb62ef5c"
+  },
+  {
+    "key": "workplace",
+    "filename": "workplace.svg",
+    "path": "/logos/library/workplace.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/workplace.svg",
+    "foundIn": "datasources.ts;glean-docs:fb-workplace",
+    "bytes": 1547,
+    "sha256": "2448e2cd4d8c2bdb10e2c1fab855b747f15d085e8c01be5176979940051529c7"
+  },
+  {
+    "key": "yammer",
+    "filename": "yammer.svg",
+    "path": "/logos/library/yammer.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/yammer.svg",
+    "foundIn": "datasources.ts;glean-docs:viva-engage;glean-docs:yammer",
+    "bytes": 3274,
+    "sha256": "1aad69b7d9fa1a2b6cd3866d979325942056d7e26f111f71d7b3da0d9ce4454f"
+  },
+  {
+    "key": "youtrack",
+    "filename": "youtrack.svg",
+    "path": "/logos/library/youtrack.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/youtrack.svg",
+    "foundIn": "datasources.ts;glean-docs:youtrack",
+    "bytes": 3016,
+    "sha256": "1387619c936b76cf36fa00ff11c197f857555f4c85410013b020b03c7734760b"
+  },
+  {
+    "key": "zendesk",
+    "filename": "zendesk.png",
+    "path": "/logos/library/zendesk.png",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/zendesk.png",
+    "foundIn": "glean-docs:zendesk",
+    "bytes": 2253,
+    "sha256": "50c376b9f185c4c804a7ee1022687d126e5588af34ce1c26cf732886f0e3597b"
+  },
+  {
+    "key": "zendesk2",
+    "filename": "zendesk2.svg",
+    "path": "/logos/library/zendesk2.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/zendesk2.svg",
+    "foundIn": "datasources.ts",
+    "bytes": 603,
+    "sha256": "aa5397c035c465bff84fa91094546f6a58ac70d4905becec24f0a9443a06a0d9"
+  },
+  {
+    "key": "zeplin",
+    "filename": "zeplin.svg",
+    "path": "/logos/library/zeplin.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/zeplin.svg",
+    "foundIn": "datasources.ts;glean-docs:zeplin",
+    "bytes": 3757,
+    "sha256": "522ec02033351a7c79f147782a835fca2dfdf74476f44f864cf47e42aa732852"
+  },
+  {
+    "key": "zoom",
+    "filename": "zoom.svg",
+    "path": "/logos/library/zoom.svg",
+    "location": "on-demand library",
+    "sourceUrl": "https://app.glean.com/images/logos/zoom.svg",
+    "foundIn": "datasources.ts;glean-docs:zoom",
+    "bytes": 1182,
+    "sha256": "6f96454bca3d71ee4d8bce28d66cedda831e53e883dbe90d778ee982a95407c7"
+  }
+]
